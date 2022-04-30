@@ -1,0 +1,17 @@
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\bin\Debug\net6.0\MediaFon.FileManager.Core.deps.json
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\bin\Debug\net6.0\MediaFon.FileManager.Core.dll
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\bin\Debug\net6.0\MediaFon.FileManager.Core.pdb
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\obj\Debug\net6.0\MediaFon.FileManager.Core.csproj.AssemblyReference.cache
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\obj\Debug\net6.0\MediaFon.FileManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\obj\Debug\net6.0\MediaFon.FileManager.Core.AssemblyInfoInputs.cache
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\obj\Debug\net6.0\MediaFon.FileManager.Core.AssemblyInfo.cs
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\obj\Debug\net6.0\MediaFon.FileManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\obj\Debug\net6.0\MediaFon.FileManager.Core.dll
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\obj\Debug\net6.0\refint\MediaFon.FileManager.Core.dll
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\obj\Debug\net6.0\MediaFon.FileManager.Core.pdb
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\obj\Debug\net6.0\ref\MediaFon.FileManager.Core.dll
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\bin\Debug\net6.0\MediaFon.FileManager.Domain.dll
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\bin\Debug\net6.0\MediaFon.FileManager.Infrastructure.dll
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\bin\Debug\net6.0\MediaFon.FileManager.Infrastructure.pdb
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\bin\Debug\net6.0\MediaFon.FileManager.Domain.pdb
+C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\obj\Debug\net6.0\MediaFon.FileManager.Core.csproj.CopyComplete

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bZYOZmHrYt0xBFfa+cTi/7PHg0aYFgbmZUfT7sVulIM=",
+  "Source": "MediaFon.FileManager.Web",
+  "BasePath": "_content/MediaFon.FileManager.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
