@@ -2,7 +2,7 @@
 
 namespace MediaFon.FileManager.Core.Interfaces
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IFilesInfoServiceUnitOfWork : IDisposable
     {
         FilesRepository Files { get; }
         Task<int> Complete();

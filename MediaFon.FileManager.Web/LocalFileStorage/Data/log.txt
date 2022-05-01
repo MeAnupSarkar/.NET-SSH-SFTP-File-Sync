@@ -1,0 +1,9 @@
+2022-04-30 23:19:53.026 +06:00 [INF] Now listening on: https://localhost:7193
+2022-04-30 23:19:53.112 +06:00 [INF] Now listening on: http://localhost:5193
+2022-04-30 23:19:53.123 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-30 23:19:53.125 +06:00 [INF] Hosting environment: Development
+2022-04-30 23:19:53.127 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-04-30 23:20:06.071 +06:00 [INF] Inserted Status :  1
+2022-04-30 23:20:06.088 +06:00 [INF] HTTP POST /api/Files responded 200 in 2846.8696 ms
+2022-04-30 23:20:10.614 +06:00 [INF] Fetch All 
+2022-04-30 23:20:11.041 +06:00 [INF] HTTP GET /api/Files responded 200 in 433.9309 ms

@@ -2,6 +2,7 @@
 using MediaFon.FileManager.Core.UnitOfWork.Services;
 using MediaFon.FileManager.Domain.Entity;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,59 +12,69 @@ namespace MediaFon.FileManager.Web.Controllers
     [ApiController]
     public class FilesController : ControllerBase
     {        
-        IUnitOfWork filesService;
+        IFilesInfoServiceUnitOfWork filesService;
+        SFTPService sftpService;
+        private readonly IWebHostEnvironment _webHostEnvirnoment;
+         
 
-        public FilesController(IUnitOfWork unitOfWork)
+        public FilesController(IFilesInfoServiceUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
+            this._webHostEnvirnoment = webHostEnvironment;
             this.filesService = unitOfWork;
+            this.sftpService = new SFTPService(this.filesService, $"{this._webHostEnvirnoment.ContentRootPath}\\LocalFileStorage");
+
 
         }
 
-        // GET: api/<FilesController>
+
         [HttpGet]
-        public IEnumerable<FileMetaData> Get()
+        public IEnumerable<Domain.Entity.File> Get()
         {
+            Log.Information("Fetch All " );
+
             return filesService.Files.GetAllFiles();
         }
 
-        // GET api/<FilesController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
+      
+ 
 
-        // POST api/<FilesController>
-        [HttpPost]
-        public async Task<object> Post( )
+        [HttpGet()]
+        [Route("Disconnect")]
+        public object Disconnect()
         {
-            var FileMetaData = new FileMetaData
+            try
             {
-                Name = "test",
-                Extention = "test",
-                Location = "test",
-                MimeType = "test",
-                Size = 111,
-                CreatedBy = "Admin"
-            };
+                var result = sftpService.Disconnect();
+                Log.Information("SFTP DisConnected!");
+                return Ok(new { status = result , msg = result ? "Disconnected" : "Still Connected!" });  
+            }
+            catch (Exception e)
+            {
+                Log.Error(e, e.Message);
+                return StatusCode(StatusCodes.Status500InternalServerError, new { msg = e.Message });
 
-            filesService.Files.Add(FileMetaData);
+            }
 
-            var status = await filesService.Complete();
-
-            return Ok("Insert Status :  " + status);
         }
 
-        // PUT api/<FilesController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpGet()]
+        [Route("ListDirectory")]
+        public List<String>? ListDirectory()
         {
+            //try
+            //{
+                var folders = sftpService.ListDirectory();
+                return  folders ;
+            //}
+            //catch (Exception e)
+            //{
+            //    Log.Error(e, e.Message);
+            //    return null;
+
+            //}
+
         }
 
-        // DELETE api/<FilesController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+
     }
 }

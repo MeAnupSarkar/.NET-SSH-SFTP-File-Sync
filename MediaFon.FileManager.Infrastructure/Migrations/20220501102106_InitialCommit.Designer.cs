@@ -3,6 +3,7 @@ using System;
 using MediaFon.FileManager.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MediaFon.FileManager.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220501102106_InitialCommit")]
+    partial class InitialCommit
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -51,15 +53,7 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
                     b.Property<DateTime?>("LastWriteTimeUtc")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("LocalPath")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("RemotePath")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -111,15 +105,7 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
                     b.Property<DateTime?>("LastWriteTimeUtc")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("LocalPath")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("RemotePath")
                         .IsRequired()
                         .HasColumnType("text");
 

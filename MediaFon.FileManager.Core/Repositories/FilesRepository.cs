@@ -8,18 +8,18 @@ namespace MediaFon.FileManager.Core.Repositories;
 
 
 
-public class FilesRepository : GenericRepository<FileMetaData>, IFilesRepository
+public class FilesRepository : GenericRepository<Domain.Entity.File>, IFilesRepository
 {
     public FilesRepository(ApplicationDbContext _context) : base(_context)
     {
     }
 
-    public IEnumerable<FileMetaData> GetAllFiles() => context.Files.ToList();
+    public IEnumerable<Domain.Entity.File> GetAllFiles() => context.Files.ToList();
 
 
 }
 
 public interface IFilesRepository
 {
-    IEnumerable<FileMetaData> GetAllFiles();
+    IEnumerable<Domain.Entity.File> GetAllFiles();
 }

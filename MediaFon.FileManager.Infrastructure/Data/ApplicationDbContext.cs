@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using MediaFon.FileManager.Domain.Entity;
+﻿
+
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+using File = MediaFon.FileManager.Domain.Entity.File;
+using Directory = MediaFon.FileManager.Domain.Entity.Directory;
+
 
 namespace MediaFon.FileManager.Infrastructure.Data
 {
@@ -12,9 +13,9 @@ namespace MediaFon.FileManager.Infrastructure.Data
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public DbSet<FileMetaData> Files { get; set; }
+        public DbSet<File> Files { get; set; }
+        public DbSet<Directory> Directories { get; set; }
 
- 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -30,11 +31,14 @@ namespace MediaFon.FileManager.Infrastructure.Data
             OnModelCreatingPartial(modelBuilder);
 
             modelBuilder
-                .Entity<FileMetaData>()
+                .Entity<File>()
                 .Property(e => e.CreatedAt)
                 .HasDefaultValueSql("now()");
 
- 
+            modelBuilder
+                .Entity<Directory>()
+                .Property(e => e.CreatedAt)
+                .HasDefaultValueSql("now()");
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
