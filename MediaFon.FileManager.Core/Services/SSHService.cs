@@ -44,7 +44,7 @@ public class SSHService : ISSHService
         this.SFTP_USER = config["SSH_Settings:SFTP_USER"].ToString();
         this.SFTP_PASS = config["SSH_Settings:SFTP_PASS"].ToString();
         this.SFTP_PORT = String.IsNullOrEmpty(config["SSH_Settings:SFTP_PORT"]) ? 22 : Convert.ToInt32(config["SSH_Settings:SFTP_PORT"]);
-        this.userDefinedRemoteWorkingDirectory = config["SSH_Settings:WorkingDirectory"].ToString();
+        this.userDefinedRemoteWorkingDirectory = config["SSH_Settings:UserDefinedRemoteWorkingDirectory"].ToString();
 
         jobStartedAt = DateTime.UtcNow;
     }
