@@ -11,7 +11,6 @@ public class File : BaseEntity
     [Required]
     public string DirectoryName { get; set; }
 
-   
     public string RemotePath { get; set; }
 
     public string LocalPath { get; set; }
@@ -20,14 +19,11 @@ public class File : BaseEntity
     [MaxLength(10)]
     public string? Extention { get; set; }
 
-
     public DateTime? LastAccessTime { get; set; }
 
     public DateTime? LastWriteTime { get; set; }
 
-
     public DateTime? LastAccessTimeUtc { get; set; }
-
 
     public DateTime? LastWriteTimeUtc { get; set; }
 

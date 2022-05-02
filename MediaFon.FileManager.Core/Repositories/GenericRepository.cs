@@ -11,6 +11,8 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
 
     public GenericRepository(ApplicationDbContext _context) => context = _context;
 
+
+
     public T? GetById(Guid id) => context.Set<T>().Find(id);
 
     public bool Any(Expression<Func<T, bool>> expression) => context.Set<T>().Any(expression);

@@ -1,11 +1,9 @@
 ﻿using MediaFon.FileManager.Domain.Common;
 
-
 namespace MediaFon.FileManager.Domain.Entity;
 
 public class EventLogs : BaseEntity
 {
-  
 
     public string EventName { get; set; }
 
@@ -20,4 +18,6 @@ public class EventLogs : BaseEntity
     public DateTime? JobEndedAt { get; set; }
 
     public string Result { get; set; }
+
+   
 }

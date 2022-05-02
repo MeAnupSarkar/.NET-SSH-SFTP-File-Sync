@@ -1,8 +1,10 @@
 ﻿using MediaFon.FileManager.Core.Interfaces;
 using MediaFon.FileManager.Core.Repositories;
 using MediaFon.FileManager.Infrastructure.Data;
- 
 
+
+// [Unit of Work] pattern is used to group one or more operations into a single transaction
+// so that all operations either pass or fail as one unit. 
 namespace MediaFon.FileManager.Core.UnitOfWork.Services
 {
     public class FilesInfoDbService : IFilesInfoServiceUnitOfWork 

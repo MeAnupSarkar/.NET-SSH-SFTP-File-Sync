@@ -3,6 +3,8 @@ using Microsoft.Extensions.Caching.Memory;
  
 namespace MediaFon.FileManager.Core.Services;
 
+// Initial plan was implementing In Memory Cache for better performance.
+// But at last quitted the idea because I got very exhausted by doing continious coding.
 public class InMemoryCacheService : ICacheService
 {
     private readonly IMemoryCache _memoryCache;

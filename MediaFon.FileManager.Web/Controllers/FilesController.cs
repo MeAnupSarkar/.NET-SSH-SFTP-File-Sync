@@ -1,13 +1,10 @@
 ﻿using MediaFon.FileManager.Core.Interfaces;
-using MediaFon.FileManager.Core.Services;
 using MediaFon.FileManager.Domain.Entity;
 using Microsoft.AspNetCore.Mvc;
-using Serilog;
 using Swashbuckle.AspNetCore.Annotations;
 using Directory = MediaFon.FileManager.Domain.Entity.Directory;
 using File = MediaFon.FileManager.Domain.Entity.File;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace MediaFon.FileManager.Web.Controllers
 {
@@ -17,17 +14,7 @@ namespace MediaFon.FileManager.Web.Controllers
     {        
         IFilesInfoServiceUnitOfWork filesService;
        
-
-        public FilesController(IFilesInfoServiceUnitOfWork filesInfoDbService, IWebHostEnvironment webHostEnvironment, IConfiguration config)
-        {
-
-            this.filesService = filesInfoDbService;
-
-            var webRootPath = $"{webHostEnvironment.ContentRootPath}\\{config["SSH_Settings:LocalFileStoreLocation"]}";
-            //this.sftpService = new SSHService(  webRootPath , config);
-
-
-        }
+        public FilesController(IFilesInfoServiceUnitOfWork filesInfoDbService) => filesService = filesInfoDbService;
 
 
         [HttpGet()]

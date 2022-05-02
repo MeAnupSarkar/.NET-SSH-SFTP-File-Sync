@@ -5,7 +5,7 @@ namespace MediaFon.FileManager.Core.Interfaces
     public interface ISSHService
     {
        
-        Task<EventLogs> InitRemoteSFTPSyncWithLocal();
+        Task  InitRemoteSFTPSyncWithLocal();
 
         bool CheckIfConnected();
         bool Disconnect();

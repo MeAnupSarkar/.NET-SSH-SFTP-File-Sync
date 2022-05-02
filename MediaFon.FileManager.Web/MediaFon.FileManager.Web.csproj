@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <Folder Include="LocalFileStorage\" />
+    <Folder Include="logs\" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,82 @@
+2022-05-03 00:46:28.857 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-03 00:46:29.096 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-03 00:46:30.598 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-03 00:46:30.600 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-03 00:46:30.602 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-03 00:46:30.603 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-03 00:46:30.605 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-03 00:46:30.845 +06:00 [INF] Server desktop-snlcpoq:12576:03bffaf9 successfully announced in 39.1254 ms
+2022-05-03 00:46:30.893 +06:00 [INF] Server desktop-snlcpoq:12576:03bffaf9 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-03 00:46:30.932 +06:00 [INF] 2 servers were removed due to timeout
+2022-05-03 00:46:32.029 +06:00 [INF] Server desktop-snlcpoq:12576:03bffaf9 all the dispatchers started
+2022-05-03 00:46:32.512 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-03 00:46:32.514 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-03 00:46:32.535 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-03 00:46:32.537 +06:00 [INF] Hosting environment: Development
+2022-05-03 00:46:32.539 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-03 00:47:02.535 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-03 00:47:03.466 +06:00 [INF] Connected to SFTP Host [Server : 192.168.0.109 , User : anup]
+2022-05-03 00:47:03.477 +06:00 [INF] Default Remote Directory : /C:/Users/Anup
+2022-05-03 00:47:03.480 +06:00 [INF] Current Working Directory : /C:/SFTP
+2022-05-03 00:47:05.084 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\ANUP+KUMAR+SARKAR+-+Software+Engineer+-+Resume_6.pdf
+2022-05-03 00:47:05.104 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV_Blue _HPL.pdf
+2022-05-03 00:47:05.133 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\photo_anup.JPG
+2022-05-03 00:47:05.175 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\photo_anup2.jpg
+2022-05-03 00:47:05.188 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\susmoy2.jpg
+2022-05-03 00:47:05.199 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\user.png
+2022-05-03 00:47:05.212 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\VisualStudio2019 - Copy (2).txt
+2022-05-03 00:47:05.225 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\VisualStudio2019 - Copy.txt
+2022-05-03 00:47:05.237 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\VisualStudio2019.txt
+2022-05-03 00:47:05.239 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Activision Code 
+2022-05-03 00:47:05.310 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Activision Code\VisualStudio2019.txt
+2022-05-03 00:47:05.312 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Android Keys 
+2022-05-03 00:47:05.324 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Android Keys\pass.txt
+2022-05-03 00:47:05.336 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Android Keys\vara123_key.jks
+2022-05-03 00:47:05.339 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV 
+2022-05-03 00:47:05.362 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume.pdf
+2022-05-03 00:47:05.380 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_2.pdf
+2022-05-03 00:47:05.405 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_3.pdf
+2022-05-03 00:47:05.436 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_5.pdf
+2022-05-03 00:47:05.520 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\ANUP KUMAR SARKAR - Software Engineer - Resume_6.pdf
+2022-05-03 00:47:05.553 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\ANUP+KUMAR+SARKAR+-+Software+Engineer+-+Resume_6.pdf
+2022-05-03 00:47:05.578 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV_Blue _HPL.pdf
+2022-05-03 00:47:05.581 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\Cover Letter 
+2022-05-03 00:47:05.618 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\Cover Letter\JobMailApplicationCoverLetter.docx
+2022-05-03 00:47:05.621 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW 
+2022-05-03 00:47:05.660 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\CV_Anup_Feb-22.docx
+2022-05-03 00:47:05.697 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\DotNet_Anup_Sarkar_Resume.pdf
+2022-05-03 00:47:05.706 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\link.txt
+2022-05-03 00:47:05.719 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\~$_FORMAT2.docx
+2022-05-03 00:47:05.722 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\Others 
+2022-05-03 00:47:05.753 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\Others\1.PNG
+2022-05-03 00:47:05.772 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\Others\2.PNG
+2022-05-03 00:47:05.801 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\Others\CV.pdf
+2022-05-03 00:47:05.823 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\Others\CV1.pdf
+2022-05-03 00:47:05.854 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\Others\CV2.pdf
+2022-05-03 00:47:05.878 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\Others\CV_Perfect.docx
+2022-05-03 00:47:05.893 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\Others\CV_Perfect.pdf
+2022-05-03 00:47:05.946 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV\CV NEW\Others\DotNet_Anup_Sarkar_Resume_Feb22.pdf
+2022-05-03 00:47:05.948 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Data 
+2022-05-03 00:47:05.963 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Data\log.txt
+2022-05-03 00:47:05.986 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Data\photo_anup.JPG
+2022-05-03 00:47:06.026 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Data\photo_anup2.jpg
+2022-05-03 00:47:06.040 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Data\susmoy2.jpg
+2022-05-03 00:47:06.065 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Data\user.png
+2022-05-03 00:47:06.985 +06:00 [INF] Background Job [File Synchronizations from SFTP Server] completion  result [DirectoryFound = 7, FilesFound = 37, FilesCreated=37, FilesModified=0].
+2022-05-03 00:48:02.615 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-03 00:48:02.979 +06:00 [INF] Connected to SFTP Host [Server : 192.168.0.109 , User : anup]
+2022-05-03 00:48:02.983 +06:00 [INF] Default Remote Directory : /C:/Users/Anup
+2022-05-03 00:48:02.988 +06:00 [INF] Current Working Directory : /C:/SFTP
+2022-05-03 00:48:03.169 +06:00 [INF] Background Job [File Synchronizations from SFTP Server] completion  result [DirectoryFound = 7, FilesFound = 37, FilesCreated=0, FilesModified=0].
+2022-05-03 00:49:02.713 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-03 00:49:03.052 +06:00 [INF] Connected to SFTP Host [Server : 192.168.0.109 , User : anup]
+2022-05-03 00:49:03.058 +06:00 [INF] Default Remote Directory : /C:/Users/Anup
+2022-05-03 00:49:03.062 +06:00 [INF] Current Working Directory : /C:/SFTP
+2022-05-03 00:49:03.114 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\anup - Copy.jpg
+2022-05-03 00:49:03.140 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\anup.jpg
+2022-05-03 00:49:03.165 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\anup3.jpg
+2022-05-03 00:49:03.262 +06:00 [INF] Background Job [File Synchronizations from SFTP Server] completion  result [DirectoryFound = 7, FilesFound = 40, FilesCreated=3, FilesModified=0].

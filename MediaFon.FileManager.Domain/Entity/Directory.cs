@@ -1,16 +1,12 @@
 ﻿using MediaFon.FileManager.Domain.Common;
-using System.ComponentModel.DataAnnotations;
+
 
 namespace MediaFon.FileManager.Domain.Entity;
 
 public class Directory   : BaseEntity
 {
-    public Directory()
-    {
-    }
- 
+    public Directory(){}
 
-  
     public string Name { get;  set; }
 
     public string RemotePath { get; set; }

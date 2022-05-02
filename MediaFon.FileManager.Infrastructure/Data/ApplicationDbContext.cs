@@ -19,13 +19,6 @@ namespace MediaFon.FileManager.Infrastructure.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //if (!optionsBuilder.IsConfigured)
-            //{
-
-            //    optionsBuilder.UseNpgsql("Host=localhost;Database=FileManagerDb;Username=postgres;Password=Admin@123");
-            //}
-
-            //optionsBuilder.LogTo(Console.WriteLine);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
