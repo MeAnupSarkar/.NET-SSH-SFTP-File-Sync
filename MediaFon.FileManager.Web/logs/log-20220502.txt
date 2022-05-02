@@ -392,3 +392,1769 @@ DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error
 2022-05-02 19:22:39.904 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\VisualStudio2019 - Copy (2).txt
 2022-05-02 19:22:40.006 +06:00 [INF] SFTP File /C:/SFTP/VisualStudio2019.txt has modified since last sync. File updated to newer file  location : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage
 2022-05-02 19:22:40.269 +06:00 [INF] HTTP GET /api/Files/ListDirectory responded 200 in 1408.9173 ms
+2022-05-02 20:24:04.005 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 20:24:05.133 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 20:24:06.447 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 20:24:06.450 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 20:24:06.451 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 20:24:06.452 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 20:24:06.452 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 20:24:06.604 +06:00 [INF] Server desktop-snlcpoq:10228:6db4163d successfully announced in 25.4165 ms
+2022-05-02 20:24:06.616 +06:00 [INF] Server desktop-snlcpoq:10228:6db4163d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 20:24:07.247 +06:00 [INF] Server desktop-snlcpoq:10228:6db4163d all the dispatchers started
+2022-05-02 20:24:07.469 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 20:24:07.470 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 20:24:07.474 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 20:24:07.475 +06:00 [INF] Hosting environment: Development
+2022-05-02 20:24:07.476 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 20:24:34.572 +06:00 [INF] HTTP GET /hangfire responded 200 in 368.8752 ms
+2022-05-02 20:24:34.856 +06:00 [INF] HTTP GET /hangfire/css17280 responded 200 in 254.6849 ms
+2022-05-02 20:24:34.929 +06:00 [INF] HTTP GET /hangfire/js17280 responded 200 in 271.4203 ms
+2022-05-02 20:24:35.040 +06:00 [INF] HTTP GET /hangfire/fonts/glyphicons-halflings-regular/woff2 responded 200 in 15.7686 ms
+2022-05-02 20:24:37.492 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 42.0235 ms
+2022-05-02 20:24:39.541 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 20.8545 ms
+2022-05-02 20:24:41.607 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 33.7904 ms
+2022-05-02 20:24:43.673 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 12.0800 ms
+2022-05-02 20:24:45.727 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 30.4296 ms
+2022-05-02 20:24:47.766 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.3755 ms
+2022-05-02 20:24:49.804 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.1639 ms
+2022-05-02 20:24:50.596 +06:00 [INF] HTTP GET /hangfire/jobs/enqueued responded 200 in 55.5935 ms
+2022-05-02 20:24:52.514 +06:00 [INF] HTTP GET /hangfire/jobs/succeeded responded 200 in 76.6471 ms
+2022-05-02 20:24:54.842 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.9958 ms
+2022-05-02 20:24:56.880 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 11.4914 ms
+2022-05-02 20:24:58.943 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 14.9657 ms
+2022-05-02 20:25:00.972 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.2380 ms
+2022-05-02 20:25:03.014 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.3884 ms
+2022-05-02 20:25:05.054 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.6215 ms
+2022-05-02 20:25:07.088 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.4184 ms
+2022-05-02 20:25:09.142 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.5792 ms
+2022-05-02 20:25:11.193 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.9793 ms
+2022-05-02 20:25:12.643 +06:00 [INF] HTTP GET /hangfire/jobs/details/1 responded 200 in 83.0429 ms
+2022-05-02 20:25:15.209 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 24.5884 ms
+2022-05-02 20:25:17.253 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 18.7744 ms
+2022-05-02 20:25:19.298 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.5718 ms
+2022-05-02 20:25:21.345 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.5233 ms
+2022-05-02 20:25:23.391 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.4064 ms
+2022-05-02 20:25:25.433 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.9058 ms
+2022-05-02 20:25:27.478 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.0662 ms
+2022-05-02 20:25:29.523 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.4651 ms
+2022-05-02 20:25:29.837 +06:00 [INF] HTTP GET /hangfire/jobs/succeeded responded 200 in 29.8042 ms
+2022-05-02 20:25:32.471 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 25.6967 ms
+2022-05-02 20:25:33.635 +06:00 [INF] HTTP GET /hangfire/jobs/details/2 responded 200 in 22.6149 ms
+2022-05-02 20:25:35.907 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.3233 ms
+2022-05-02 20:25:37.957 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.5649 ms
+2022-05-02 20:25:39.994 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.7928 ms
+2022-05-02 20:25:42.034 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.4685 ms
+2022-05-02 20:25:44.079 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.2615 ms
+2022-05-02 20:25:46.117 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.4985 ms
+2022-05-02 20:25:48.187 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 28.2416 ms
+2022-05-02 20:25:50.217 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.9657 ms
+2022-05-02 20:25:52.248 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.0979 ms
+2022-05-02 20:25:54.292 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.8333 ms
+2022-05-02 20:25:56.331 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.1377 ms
+2022-05-02 20:25:58.384 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.8534 ms
+2022-05-02 20:26:00.425 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.7952 ms
+2022-05-02 20:26:02.459 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.5997 ms
+2022-05-02 20:26:04.499 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.5948 ms
+2022-05-02 20:26:06.536 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.4007 ms
+2022-05-02 20:26:08.581 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.4385 ms
+2022-05-02 20:26:10.620 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.4200 ms
+2022-05-02 20:26:12.661 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.7200 ms
+2022-05-02 20:26:14.702 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.3853 ms
+2022-05-02 20:26:16.338 +06:00 [INF] HTTP GET /hangfire/jobs/succeeded responded 200 in 23.1062 ms
+2022-05-02 20:26:18.904 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.9787 ms
+2022-05-02 20:26:18.989 +06:00 [INF] HTTP GET /hangfire/jobs/details/3 responded 200 in 32.6263 ms
+2022-05-02 20:26:21.295 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.9213 ms
+2022-05-02 20:26:24.684 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 5.2699 ms
+2022-05-02 20:26:26.715 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.2671 ms
+2022-05-02 20:26:28.757 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.9236 ms
+2022-05-02 20:26:30.770 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 2.7482 ms
+2022-05-02 20:26:32.790 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.3730 ms
+2022-05-02 20:26:34.831 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.0411 ms
+2022-05-02 20:26:36.871 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.3022 ms
+2022-05-02 20:26:38.916 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.6665 ms
+2022-05-02 20:26:40.949 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.7808 ms
+2022-05-02 20:26:42.998 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 13.7979 ms
+2022-05-02 20:26:45.029 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.4854 ms
+2022-05-02 20:26:47.070 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.5587 ms
+2022-05-02 20:26:49.121 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.4269 ms
+2022-05-02 20:26:51.162 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.5317 ms
+2022-05-02 20:26:52.429 +06:00 [INF] Application is shutting down...
+2022-05-02 20:26:52.467 +06:00 [INF] Server desktop-snlcpoq:10228:6db4163d caught stopping signal...
+2022-05-02 20:26:52.502 +06:00 [INF] Server desktop-snlcpoq:10228:6db4163d caught stopped signal...
+2022-05-02 20:26:52.566 +06:00 [INF] Server desktop-snlcpoq:10228:6db4163d All dispatchers stopped
+2022-05-02 20:26:52.575 +06:00 [INF] Server desktop-snlcpoq:10228:6db4163d successfully reported itself as stopped in 1.7474 ms
+2022-05-02 20:26:52.576 +06:00 [INF] Server desktop-snlcpoq:10228:6db4163d has been stopped in total 83.7691 ms
+2022-05-02 20:54:55.129 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 20:54:55.854 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 20:54:57.638 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 20:54:57.643 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 20:54:57.645 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 20:54:57.646 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 20:54:57.647 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 20:54:57.830 +06:00 [INF] Server desktop-snlcpoq:10972:37e462dc successfully announced in 46.8265 ms
+2022-05-02 20:54:57.910 +06:00 [INF] Server desktop-snlcpoq:10972:37e462dc is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 20:54:58.778 +06:00 [INF] Server desktop-snlcpoq:10972:37e462dc all the dispatchers started
+2022-05-02 20:54:59.495 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 20:54:59.499 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 20:54:59.506 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 20:54:59.509 +06:00 [INF] Hosting environment: Development
+2022-05-02 20:54:59.511 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 20:55:31.974 +06:00 [INF] HTTP GET /api/Files/GetAllSFTPEventLogs responded 200 in 7614.4836 ms
+2022-05-02 20:56:17.001 +06:00 [INF] HTTP GET /api/Files/GetAllFilesInfo responded 200 in 242.8728 ms
+2022-05-02 20:56:41.769 +06:00 [INF] HTTP GET /api/Files/AllDirectoriesInfo responded 200 in 915.6528 ms
+2022-05-02 21:34:18.928 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 21:34:19.171 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 21:54:43.398 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 21:54:43.642 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:00:24.406 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:00:24.641 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:00:50.428 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:00:50.435 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:00:50.440 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:00:50.441 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:00:50.445 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:00:50.599 +06:00 [INF] Server desktop-snlcpoq:14692:8b69b23f successfully announced in 93.4785 ms
+2022-05-02 22:00:50.632 +06:00 [INF] Server desktop-snlcpoq:14692:8b69b23f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:00:50.672 +06:00 [INF] 1 servers were removed due to timeout
+2022-05-02 22:00:51.111 +06:00 [INF] Server desktop-snlcpoq:14692:8b69b23f all the dispatchers started
+2022-05-02 22:00:51.247 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:00:51.248 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:00:51.253 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:00:51.255 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:00:51.255 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:00:51.417 +06:00 [FTL] Unable to Connect  SFTP Server :  , User : 
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Renci.SshNet.PasswordConnectionInfo..ctor(String host, Int32 port, String username, String password)
+   at Renci.SshNet.SftpClient..ctor(String host, Int32 port, String username, String password)
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 76
+2022-05-02 22:01:06.387 +06:00 [FTL] Unable to Connect  SFTP Server :  , User : 
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at Renci.SshNet.PasswordConnectionInfo..ctor(String host, Int32 port, String username, String password)
+   at Renci.SshNet.SftpClient..ctor(String host, Int32 port, String username, String password)
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 76
+2022-05-02 22:01:11.752 +06:00 [WRN] Stopping the server due to DomainUnload or ProcessExit event...
+2022-05-02 22:01:11.754 +06:00 [INF] Server desktop-snlcpoq:14692:8b69b23f caught stopping signal...
+2022-05-02 22:01:11.756 +06:00 [INF] Server desktop-snlcpoq:14692:8b69b23f caught stopped signal...
+2022-05-02 22:01:11.757 +06:00 [WRN] Server desktop-snlcpoq:14692:8b69b23f caught shutdown signal...
+2022-05-02 22:01:11.764 +06:00 [WRN] Server desktop-snlcpoq:14692:8b69b23f stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+2022-05-02 22:01:11.880 +06:00 [INF] Server desktop-snlcpoq:14692:8b69b23f successfully reported itself as stopped in 95.1296 ms
+2022-05-02 22:01:11.882 +06:00 [INF] Server desktop-snlcpoq:14692:8b69b23f has been stopped in total 126.2424 ms
+2022-05-02 22:02:15.526 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:02:15.764 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:02:25.562 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:02:25.563 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:02:25.564 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:02:25.565 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:02:25.565 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:02:25.649 +06:00 [INF] Server desktop-snlcpoq:14676:63e489d1 successfully announced in 32.2153 ms
+2022-05-02 22:02:25.666 +06:00 [INF] Server desktop-snlcpoq:14676:63e489d1 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:02:26.280 +06:00 [INF] Server desktop-snlcpoq:14676:63e489d1 all the dispatchers started
+2022-05-02 22:02:26.430 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:02:26.432 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:02:26.437 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:02:26.438 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:02:26.439 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:02:26.762 +06:00 [FTL] Unable to Connect  SFTP Server :  , User : 
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Renci.SshNet.PasswordConnectionInfo..ctor(String host, Int32 port, String username, String password)
+   at Renci.SshNet.SftpClient..ctor(String host, Int32 port, String username, String password)
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 76
+2022-05-02 22:03:11.830 +06:00 [FTL] Unable to Connect  SFTP Server :  , User : 
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at Renci.SshNet.PasswordConnectionInfo..ctor(String host, Int32 port, String username, String password)
+   at Renci.SshNet.SftpClient..ctor(String host, Int32 port, String username, String password)
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 76
+2022-05-02 22:03:42.868 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:03:43.092 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:04:20.130 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:04:20.131 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:04:20.131 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:04:20.132 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:04:20.133 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:04:20.204 +06:00 [INF] Server desktop-snlcpoq:17684:3c35147d successfully announced in 35.2741 ms
+2022-05-02 22:04:20.221 +06:00 [INF] Server desktop-snlcpoq:17684:3c35147d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:04:20.837 +06:00 [INF] Server desktop-snlcpoq:17684:3c35147d all the dispatchers started
+2022-05-02 22:04:20.965 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:04:20.967 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:04:20.972 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:04:20.973 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:04:20.975 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:07:23.571 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:07:23.814 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:07:40.244 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:07:40.246 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:07:40.247 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:07:40.248 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:07:40.249 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:07:40.352 +06:00 [INF] Server desktop-snlcpoq:17596:4d35b726 successfully announced in 53.1505 ms
+2022-05-02 22:07:40.374 +06:00 [INF] Server desktop-snlcpoq:17596:4d35b726 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:07:40.990 +06:00 [INF] Server desktop-snlcpoq:17596:4d35b726 all the dispatchers started
+2022-05-02 22:07:41.168 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:07:41.169 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:07:41.174 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:07:41.175 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:07:41.176 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:07:41.377 +06:00 [WRN] Failed to process the job '19': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:31.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:08:11.407 +06:00 [WRN] Failed to process the job '21': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:21.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:09:03.212 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:09:03.488 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:09:23.881 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:09:23.882 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:09:23.883 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:09:23.884 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:09:23.885 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:09:23.975 +06:00 [INF] Server desktop-snlcpoq:13416:12c20cb6 successfully announced in 34.1013 ms
+2022-05-02 22:09:23.999 +06:00 [INF] Server desktop-snlcpoq:13416:12c20cb6 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:09:24.043 +06:00 [INF] 2 servers were removed due to timeout
+2022-05-02 22:09:24.816 +06:00 [INF] Server desktop-snlcpoq:13416:12c20cb6 all the dispatchers started
+2022-05-02 22:09:25.168 +06:00 [WRN] Failed to process the job '23': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:28.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:09:25.170 +06:00 [WRN] Failed to process the job '19': an exception occurred. Retry attempt 2 of 10 will be performed in 00:00:16.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:09:25.168 +06:00 [WRN] Failed to process the job '21': an exception occurred. Retry attempt 2 of 10 will be performed in 00:00:58.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:09:25.185 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:09:25.229 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:09:25.238 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:09:25.242 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:09:25.243 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:09:55.163 +06:00 [WRN] Failed to process the job '19': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:25.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:09:55.165 +06:00 [WRN] Failed to process the job '23': an exception occurred. Retry attempt 2 of 10 will be performed in 00:01:14.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:10:10.207 +06:00 [WRN] Failed to process the job '25': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:37.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:10:25.211 +06:00 [WRN] Failed to process the job '21': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:01.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:10:55.281 +06:00 [WRN] Failed to process the job '25': an exception occurred. Retry attempt 2 of 10 will be performed in 00:00:28.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:11:10.347 +06:00 [WRN] Failed to process the job '23': an exception occurred. Retry attempt 3 of 10 will be performed in 00:00:49.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:11:10.352 +06:00 [WRN] Failed to process the job '27': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:31.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:11:25.390 +06:00 [WRN] Failed to process the job '19': an exception occurred. Retry attempt 4 of 10 will be performed in 00:03:16.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:11:25.395 +06:00 [WRN] Failed to process the job '25': an exception occurred. Retry attempt 3 of 10 will be performed in 00:00:43.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:11:40.416 +06:00 [WRN] Failed to process the job '21': an exception occurred. Retry attempt 4 of 10 will be performed in 00:02:40.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:11:55.483 +06:00 [WRN] Failed to process the job '27': an exception occurred. Retry attempt 2 of 10 will be performed in 00:01:12.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:12:10.500 +06:00 [WRN] Failed to process the job '29': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:33.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:12:10.505 +06:00 [WRN] Failed to process the job '23': an exception occurred. Retry attempt 4 of 10 will be performed in 00:01:40.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:12:10.516 +06:00 [WRN] Failed to process the job '25': an exception occurred. Retry attempt 4 of 10 will be performed in 00:02:40.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:14:27.017 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:14:27.296 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:14:34.694 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:14:34.705 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:14:34.707 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:14:34.709 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:14:34.710 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:14:34.842 +06:00 [INF] Server desktop-snlcpoq:17900:8b089557 successfully announced in 45.0315 ms
+2022-05-02 22:14:34.860 +06:00 [INF] Server desktop-snlcpoq:17900:8b089557 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:14:34.881 +06:00 [INF] 1 servers were removed due to timeout
+2022-05-02 22:14:35.556 +06:00 [INF] Server desktop-snlcpoq:17900:8b089557 all the dispatchers started
+2022-05-02 22:14:36.372 +06:00 [WRN] Failed to process the job '27': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:58.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:14:36.391 +06:00 [WRN] Failed to process the job '29': an exception occurred. Retry attempt 2 of 10 will be performed in 00:00:20.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:14:36.372 +06:00 [WRN] Failed to process the job '23': an exception occurred. Retry attempt 5 of 10 will be performed in 00:05:46.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:14:36.372 +06:00 [WRN] Failed to process the job '31': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:34.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:14:36.372 +06:00 [WRN] Failed to process the job '21': an exception occurred. Retry attempt 5 of 10 will be performed in 00:05:41.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:14:36.470 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:14:36.578 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:14:36.592 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:14:36.594 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:14:36.595 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:14:51.320 +06:00 [WRN] Failed to process the job '19': an exception occurred. Retry attempt 5 of 10 will be performed in 00:05:51.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:14:51.326 +06:00 [WRN] Failed to process the job '25': an exception occurred. Retry attempt 5 of 10 will be performed in 00:04:46.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:15:06.394 +06:00 [WRN] Failed to process the job '29': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:10.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:15:06.418 +06:00 [WRN] Failed to process the job '33': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:40.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:15:21.409 +06:00 [WRN] Failed to process the job '31': an exception occurred. Retry attempt 2 of 10 will be performed in 00:01:12.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:15:51.481 +06:00 [WRN] Failed to process the job '33': an exception occurred. Retry attempt 2 of 10 will be performed in 00:00:30.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:16:06.585 +06:00 [WRN] Failed to process the job '35': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:21.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:16:21.563 +06:00 [WRN] Failed to process the job '29': an exception occurred. Retry attempt 4 of 10 will be performed in 00:03:32.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:16:21.573 +06:00 [WRN] Failed to process the job '33': an exception occurred. Retry attempt 3 of 10 will be performed in 00:00:52.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:16:36.623 +06:00 [WRN] Failed to process the job '31': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:49.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:16:36.634 +06:00 [WRN] Failed to process the job '27': an exception occurred. Retry attempt 4 of 10 will be performed in 00:03:24.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:16:36.636 +06:00 [WRN] Failed to process the job '35': an exception occurred. Retry attempt 2 of 10 will be performed in 00:00:28.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:17:06.714 +06:00 [WRN] Failed to process the job '35': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:28.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:17:06.740 +06:00 [WRN] Failed to process the job '37': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:37.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:17:21.750 +06:00 [WRN] Failed to process the job '33': an exception occurred. Retry attempt 4 of 10 will be performed in 00:01:40.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:17:51.799 +06:00 [WRN] Failed to process the job '37': an exception occurred. Retry attempt 2 of 10 will be performed in 00:00:50.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:18:06.857 +06:00 [WRN] Failed to process the job '39': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:16.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:18:59.204 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:18:59.476 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:19:04.370 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:19:04.372 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:19:04.375 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:19:04.379 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:19:04.383 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:19:04.555 +06:00 [INF] Server desktop-snlcpoq:5772:c3335f3d successfully announced in 112.1975 ms
+2022-05-02 22:19:04.569 +06:00 [INF] Server desktop-snlcpoq:5772:c3335f3d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:19:04.597 +06:00 [INF] 1 servers were removed due to timeout
+2022-05-02 22:19:05.221 +06:00 [INF] Server desktop-snlcpoq:5772:c3335f3d all the dispatchers started
+2022-05-02 22:19:05.494 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:19:05.516 +06:00 [WRN] Failed to process the job '35': an exception occurred. Retry attempt 4 of 10 will be performed in 00:02:28.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:19:05.520 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:19:05.518 +06:00 [WRN] Failed to process the job '39': an exception occurred. Retry attempt 2 of 10 will be performed in 00:01:02.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:19:05.517 +06:00 [WRN] Failed to process the job '31': an exception occurred. Retry attempt 4 of 10 will be performed in 00:03:08.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:19:05.517 +06:00 [WRN] Failed to process the job '37': an exception occurred. Retry attempt 3 of 10 will be performed in 00:00:49.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:19:05.643 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:19:05.517 +06:00 [WRN] Failed to process the job '33': an exception occurred. Retry attempt 5 of 10 will be performed in 00:05:36.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:19:05.730 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:19:05.774 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:19:05.516 +06:00 [WRN] Failed to process the job '41': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:19.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:19:26.792 +06:00 [INF] HTTP GET /hangfire responded 200 in 192.8467 ms
+2022-05-02 22:19:28.978 +06:00 [INF] HTTP GET /hangfire/jobs/enqueued responded 200 in 89.1503 ms
+2022-05-02 22:19:30.310 +06:00 [INF] HTTP GET /hangfire/retries responded 200 in 125.4416 ms
+2022-05-02 22:19:32.802 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 53.6932 ms
+2022-05-02 22:19:34.489 +06:00 [INF] HTTP GET /hangfire/jobs/details/23 responded 200 in 186.3153 ms
+2022-05-02 22:19:35.549 +06:00 [WRN] Failed to process the job '41': an exception occurred. Retry attempt 2 of 10 will be performed in 00:00:18.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:19:37.014 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 20.1364 ms
+2022-05-02 22:19:39.052 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 12.2272 ms
+2022-05-02 22:19:41.084 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.4921 ms
+2022-05-02 22:19:43.137 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 19.3594 ms
+2022-05-02 22:19:45.179 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.6333 ms
+2022-05-02 22:19:47.211 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.2076 ms
+2022-05-02 22:19:49.249 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 5.4125 ms
+2022-05-02 22:19:50.613 +06:00 [WRN] Failed to process the job '25': an exception occurred. Retry attempt 6 of 10 will be performed in 00:10:58.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:19:51.289 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 21.6150 ms
+2022-05-02 22:19:53.345 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 27.5389 ms
+2022-05-02 22:19:55.394 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 23.0926 ms
+2022-05-02 22:19:57.425 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 4.5186 ms
+2022-05-02 22:19:59.474 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 17.6709 ms
+2022-05-02 22:20:01.520 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 15.8658 ms
+2022-05-02 22:20:03.567 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 13.1879 ms
+2022-05-02 22:20:05.620 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 21.9204 ms
+2022-05-02 22:20:05.685 +06:00 [WRN] Failed to process the job '29': an exception occurred. Retry attempt 5 of 10 will be performed in 00:05:36.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:20:05.695 +06:00 [WRN] Failed to process the job '43': an exception occurred. Retry attempt 1 of 10 will be performed in 00:00:38.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:20:05.699 +06:00 [WRN] Failed to process the job '41': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:37.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:20:05.699 +06:00 [WRN] Failed to process the job '37': an exception occurred. Retry attempt 4 of 10 will be performed in 00:02:28.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:20:05.715 +06:00 [WRN] Failed to process the job '27': an exception occurred. Retry attempt 5 of 10 will be performed in 00:05:01.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:20:07.683 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 12.2869 ms
+2022-05-02 22:20:09.713 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.0687 ms
+2022-05-02 22:20:11.739 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 3.3095 ms
+2022-05-02 22:20:13.755 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 4.6841 ms
+2022-05-02 22:20:15.786 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.4718 ms
+2022-05-02 22:20:17.845 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.9212 ms
+2022-05-02 22:20:19.885 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.1279 ms
+2022-05-02 22:20:20.756 +06:00 [WRN] Failed to process the job '39': an exception occurred. Retry attempt 3 of 10 will be performed in 00:01:01.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:20:20.763 +06:00 [WRN] Failed to process the job '21': an exception occurred. Retry attempt 6 of 10 will be performed in 00:12:16.
+System.InvalidOperationException: Unable to resolve service for type 'System.String' while attempting to activate 'MediaFon.FileManager.Core.Services.SSHService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetServiceOrCreateInstance(IServiceProvider provider, Type type)
+   at Hangfire.AspNetCore.AspNetCoreJobActivatorScope.Resolve(Type type)
+   at Hangfire.Server.CoreBackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_0.<PerformJobWithFilters>b__0()
+   at Hangfire.Server.BackgroundJobPerformer.InvokePerformFilter(IServerFilter filter, PerformingContext preContext, Func`1 continuation)
+   at Hangfire.Server.BackgroundJobPerformer.<>c__DisplayClass9_1.<PerformJobWithFilters>b__2()
+   at Hangfire.Server.BackgroundJobPerformer.PerformJobWithFilters(PerformContext context, IEnumerable`1 filters)
+   at Hangfire.Server.BackgroundJobPerformer.Perform(PerformContext context)
+   at Hangfire.Server.Worker.PerformJob(BackgroundProcessContext context, IStorageConnection connection, String jobId)
+2022-05-02 22:20:21.921 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.8937 ms
+2022-05-02 22:22:05.778 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:22:06.009 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:22:10.080 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:22:10.081 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:22:10.082 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:22:10.083 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:22:10.084 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:22:10.172 +06:00 [INF] Server desktop-snlcpoq:18312:d148d331 successfully announced in 34.776 ms
+2022-05-02 22:22:10.226 +06:00 [INF] Server desktop-snlcpoq:18312:d148d331 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:22:10.707 +06:00 [INF] Server desktop-snlcpoq:18312:d148d331 all the dispatchers started
+2022-05-02 22:23:30.280 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:23:30.538 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:23:53.043 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:23:53.044 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:23:53.045 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:23:53.046 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:23:53.046 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:23:53.141 +06:00 [INF] Server desktop-snlcpoq:8924:230fad4b successfully announced in 36.8329 ms
+2022-05-02 22:23:53.161 +06:00 [INF] Server desktop-snlcpoq:8924:230fad4b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:23:53.173 +06:00 [INF] 1 servers were removed due to timeout
+2022-05-02 22:23:53.857 +06:00 [INF] Server desktop-snlcpoq:8924:230fad4b all the dispatchers started
+2022-05-02 22:23:54.107 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:23:54.108 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:23:54.113 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:23:54.114 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:23:54.114 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:25:14.452 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:25:14.727 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:25:15.472 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:25:15.473 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:25:15.474 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:25:15.474 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:25:15.475 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:25:15.581 +06:00 [INF] Server desktop-snlcpoq:16568:c363d5d9 successfully announced in 54.9439 ms
+2022-05-02 22:25:15.610 +06:00 [INF] Server desktop-snlcpoq:16568:c363d5d9 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:25:15.633 +06:00 [INF] 1 servers were removed due to timeout
+2022-05-02 22:25:16.108 +06:00 [INF] Server desktop-snlcpoq:16568:c363d5d9 all the dispatchers started
+2022-05-02 22:25:16.264 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:25:16.266 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:25:16.273 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:25:16.274 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:25:16.278 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:25:31.700 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 22:25:31.701 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 22:25:31.718 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 22:25:31.731 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 22:25:31.732 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 22:25:31.733 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 22:25:34.605 +06:00 [ERR] The process cannot access the file 'C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\ANUP+KUMAR+SARKAR+-+Software+Engineer+-+Resume_6.pdf' because it is being used by another process.
+System.IO.IOException: The process cannot access the file 'C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\ANUP+KUMAR+SARKAR+-+Software+Engineer+-+Resume_6.pdf' because it is being used by another process.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Create(String path)
+   at MediaFon.FileManager.Core.Services.SSHService.DownloadFile(SftpFile file, String currentLocalPath) in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 166
+2022-05-02 22:25:35.710 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV_Blue _HPL.pdf
+2022-05-02 22:25:36.073 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\ANUP+KUMAR+SARKAR+-+Software+Engineer+-+Resume_6.pdf
+2022-05-02 22:25:36.265 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\CV_Blue _HPL.pdf
+2022-05-02 22:25:46.893 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 22:25:46.904 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 22:25:46.906 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 22:26:06.258 +06:00 [WRN] Stopping the server due to DomainUnload or ProcessExit event...
+2022-05-02 22:26:06.270 +06:00 [INF] Server desktop-snlcpoq:16568:c363d5d9 caught stopping signal...
+2022-05-02 22:26:06.271 +06:00 [INF] Server desktop-snlcpoq:16568:c363d5d9 caught stopped signal...
+2022-05-02 22:26:06.274 +06:00 [WRN] Server desktop-snlcpoq:16568:c363d5d9 caught shutdown signal...
+2022-05-02 22:26:06.287 +06:00 [WRN] Server desktop-snlcpoq:16568:c363d5d9 stopped non-gracefully due to ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods.
+2022-05-02 22:26:06.383 +06:00 [INF] Server desktop-snlcpoq:16568:c363d5d9 successfully reported itself as stopped in 74.6219 ms
+2022-05-02 22:26:06.384 +06:00 [INF] Server desktop-snlcpoq:16568:c363d5d9 has been stopped in total 112.4803 ms
+2022-05-02 22:27:11.385 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:27:11.781 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:27:13.868 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:27:13.870 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:27:13.871 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:27:13.872 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:27:13.873 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:27:13.995 +06:00 [INF] Server desktop-snlcpoq:8332:fca63b25 successfully announced in 38.7851 ms
+2022-05-02 22:27:14.036 +06:00 [INF] Server desktop-snlcpoq:8332:fca63b25 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:27:14.954 +06:00 [INF] Server desktop-snlcpoq:8332:fca63b25 all the dispatchers started
+2022-05-02 22:27:15.187 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:27:15.188 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:27:15.194 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:27:15.195 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:27:15.196 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:27:34.058 +06:00 [INF] HTTP GET /hangfire responded 200 in 272.6445 ms
+2022-05-02 22:27:37.420 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 806.7298 ms
+2022-05-02 22:27:39.498 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 41.7963 ms
+2022-05-02 22:27:41.536 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 15.6162 ms
+2022-05-02 22:27:43.590 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 34.2007 ms
+2022-05-02 22:27:45.652 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 17.9896 ms
+2022-05-02 22:27:46.422 +06:00 [INF] HTTP GET /hangfire/jobs/enqueued responded 200 in 99.1048 ms
+2022-05-02 22:27:48.666 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 25.2992 ms
+2022-05-02 22:27:50.718 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 31.6205 ms
+2022-05-02 22:27:51.462 +06:00 [INF] HTTP GET /hangfire/jobs/enqueued/default responded 200 in 56.8844 ms
+2022-05-02 22:27:53.790 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 19.2758 ms
+2022-05-02 22:27:54.461 +06:00 [INF] HTTP GET /hangfire/jobs/scheduled responded 200 in 76.6099 ms
+2022-05-02 22:27:56.734 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 11.7955 ms
+2022-05-02 22:27:58.182 +06:00 [INF] HTTP GET /hangfire/jobs/details/25 responded 200 in 166.4831 ms
+2022-05-02 22:28:00.562 +06:00 [INF] HTTP GET /hangfire/jobs/scheduled responded 200 in 62.1652 ms
+2022-05-02 22:28:01.395 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 22:28:01.400 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 22:28:01.402 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 22:28:01.768 +06:00 [INF] HTTP GET /hangfire/jobs/enqueued responded 200 in 31.8575 ms
+2022-05-02 22:28:03.964 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\BrandsController.cs
+2022-05-02 22:28:04.082 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 5.2145 ms
+2022-05-02 22:28:04.705 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\ProductsController.cs
+2022-05-02 22:28:06.114 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 4.8874 ms
+2022-05-02 22:28:08.151 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 14.0108 ms
+2022-05-02 22:28:10.183 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 4.8563 ms
+2022-05-02 22:28:12.223 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 12.7563 ms
+2022-05-02 22:28:14.281 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.9488 ms
+2022-05-02 22:28:16.331 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 17.6198 ms
+2022-05-02 22:28:17.143 +06:00 [INF] HTTP GET /hangfire/jobs/succeeded responded 200 in 44.1337 ms
+2022-05-02 22:28:19.557 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.5537 ms
+2022-05-02 22:28:21.601 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.6122 ms
+2022-05-02 22:28:22.647 +06:00 [INF] HTTP GET /hangfire/jobs/details/54 responded 200 in 48.8868 ms
+2022-05-02 22:28:24.992 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.6438 ms
+2022-05-02 22:28:27.017 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 6.4453 ms
+2022-05-02 22:28:27.709 +06:00 [INF] HTTP GET /hangfire/jobs/succeeded responded 200 in 36.2892 ms
+2022-05-02 22:28:29.406 +06:00 [INF] HTTP GET /hangfire/jobs/succeeded responded 200 in 48.0138 ms
+2022-05-02 22:28:30.198 +06:00 [INF] HTTP GET /hangfire/jobs/succeeded responded 200 in 36.8923 ms
+2022-05-02 22:28:32.406 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 5.1756 ms
+2022-05-02 22:28:33.407 +06:00 [INF] HTTP GET /hangfire/jobs/succeeded responded 200 in 37.2980 ms
+2022-05-02 22:28:35.625 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.5642 ms
+2022-05-02 22:28:37.437 +06:00 [INF] HTTP GET /hangfire/jobs/scheduled responded 200 in 28.3289 ms
+2022-05-02 22:28:39.676 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 5.1369 ms
+2022-05-02 22:28:41.720 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 18.4027 ms
+2022-05-02 22:28:43.769 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 6.2590 ms
+2022-05-02 22:28:44.836 +06:00 [INF] HTTP GET /hangfire/recurring responded 200 in 72.2380 ms
+2022-05-02 22:28:47.140 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 6.7956 ms
+2022-05-02 22:28:49.205 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 3.5340 ms
+2022-05-02 22:28:51.244 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 21.2617 ms
+2022-05-02 22:28:53.275 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 13.8970 ms
+2022-05-02 22:28:55.330 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.7365 ms
+2022-05-02 22:28:57.356 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 12.7351 ms
+2022-05-02 22:28:57.595 +06:00 [INF] HTTP GET /hangfire/retries responded 200 in 45.0439 ms
+2022-05-02 22:28:59.940 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.9916 ms
+2022-05-02 22:29:01.569 +06:00 [INF] HTTP GET /hangfire/jobs/enqueued responded 200 in 28.1852 ms
+2022-05-02 22:29:03.833 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 5.2576 ms
+2022-05-02 22:29:05.873 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 16.4273 ms
+2022-05-02 22:29:06.348 +06:00 [INF] HTTP GET /hangfire/jobs/processing responded 200 in 56.9051 ms
+2022-05-02 22:29:08.640 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.0672 ms
+2022-05-02 22:29:10.661 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 5.8620 ms
+2022-05-02 22:29:12.704 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 16.7270 ms
+2022-05-02 22:29:13.658 +06:00 [INF] HTTP GET /hangfire/jobs/details/47 responded 200 in 31.4874 ms
+2022-05-02 22:29:15.892 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.0707 ms
+2022-05-02 22:29:17.929 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.9429 ms
+2022-05-02 22:29:19.984 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 6.3604 ms
+2022-05-02 22:29:22.015 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.9344 ms
+2022-05-02 22:29:24.063 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.5065 ms
+2022-05-02 22:29:25.778 +06:00 [INF] HTTP GET /hangfire/jobs/enqueued responded 200 in 33.3131 ms
+2022-05-02 22:29:28.051 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 4.6333 ms
+2022-05-02 22:29:28.123 +06:00 [INF] HTTP GET /hangfire/jobs/scheduled responded 200 in 45.4512 ms
+2022-05-02 22:29:30.381 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 5.4955 ms
+2022-05-02 22:29:30.881 +06:00 [INF] HTTP GET /hangfire/jobs/processing responded 200 in 38.7570 ms
+2022-05-02 22:29:33.196 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 15.1031 ms
+2022-05-02 22:29:35.240 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.7449 ms
+2022-05-02 22:29:37.275 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.5977 ms
+2022-05-02 22:29:39.309 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.4763 ms
+2022-05-02 22:29:41.338 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.0005 ms
+2022-05-02 22:29:41.764 +06:00 [INF] HTTP GET /hangfire/jobs/processing responded 200 in 29.2102 ms
+2022-05-02 22:29:43.265 +06:00 [INF] HTTP GET /hangfire/jobs/processing responded 200 in 54.9279 ms
+2022-05-02 22:29:45.543 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.8427 ms
+2022-05-02 22:29:46.187 +06:00 [INF] HTTP GET /hangfire/jobs/details/47 responded 200 in 28.8176 ms
+2022-05-02 22:29:48.415 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 4.3026 ms
+2022-05-02 22:29:50.460 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 20.9265 ms
+2022-05-02 22:29:52.497 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.4604 ms
+2022-05-02 22:29:54.541 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.6265 ms
+2022-05-02 22:29:56.581 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 15.3502 ms
+2022-05-02 22:29:58.615 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.1923 ms
+2022-05-02 22:29:59.330 +06:00 [INF] HTTP GET /hangfire/jobs/succeeded responded 200 in 43.0857 ms
+2022-05-02 22:30:01.618 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 3.5029 ms
+2022-05-02 22:30:01.769 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 22:30:01.770 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 22:30:01.771 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 22:30:03.656 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.9136 ms
+2022-05-02 22:30:05.842 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.4354 ms
+2022-05-02 22:30:07.868 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 4.8826 ms
+2022-05-02 22:30:10.072 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.2458 ms
+2022-05-02 22:30:12.109 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 11.2751 ms
+2022-05-02 22:30:14.147 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 5.5207 ms
+2022-05-02 22:30:16.175 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.2883 ms
+2022-05-02 22:30:18.216 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 15.2569 ms
+2022-05-02 22:30:20.244 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 3.7222 ms
+2022-05-02 22:30:22.270 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 3.4757 ms
+2022-05-02 22:30:24.307 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.5520 ms
+2022-05-02 22:30:26.347 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.7915 ms
+2022-05-02 22:30:28.384 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.4688 ms
+2022-05-02 22:30:30.421 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 5.0745 ms
+2022-05-02 22:30:32.457 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.5632 ms
+2022-05-02 22:30:34.492 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.0582 ms
+2022-05-02 22:30:36.524 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.8931 ms
+2022-05-02 22:30:38.582 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.7025 ms
+2022-05-02 22:30:40.625 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 13.4803 ms
+2022-05-02 22:30:42.662 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.3591 ms
+2022-05-02 22:30:44.699 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.3193 ms
+2022-05-02 22:30:46.744 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.3177 ms
+2022-05-02 22:30:48.805 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.7200 ms
+2022-05-02 22:30:50.840 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.0716 ms
+2022-05-02 22:30:52.878 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.2942 ms
+2022-05-02 22:30:54.916 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.0812 ms
+2022-05-02 22:30:56.952 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.3308 ms
+2022-05-02 22:30:59.002 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 5.4254 ms
+2022-05-02 22:31:01.038 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.1427 ms
+2022-05-02 22:41:29.006 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:41:29.366 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:41:31.326 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:41:31.328 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:41:31.330 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:41:31.332 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:41:31.334 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:41:31.443 +06:00 [INF] Server desktop-snlcpoq:5796:087b7930 successfully announced in 48.7028 ms
+2022-05-02 22:41:31.460 +06:00 [INF] Server desktop-snlcpoq:5796:087b7930 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:41:31.484 +06:00 [INF] 3 servers were removed due to timeout
+2022-05-02 22:41:32.463 +06:00 [INF] Server desktop-snlcpoq:5796:087b7930 all the dispatchers started
+2022-05-02 22:41:32.693 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:41:32.698 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:41:32.704 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:41:32.706 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:41:32.708 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:41:33.623 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:41:33.625 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:41:33.623 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:41:33.811 +06:00 [FTL] Unable to Connect  SFTP Server :  , User : 
+System.ArgumentException: username
+   at Renci.SshNet.AuthenticationMethod..ctor(String username)
+   at Renci.SshNet.PasswordAuthenticationMethod..ctor(String username, Byte[] password)
+   at Renci.SshNet.PasswordConnectionInfo..ctor(String host, Int32 port, String username, Byte[] password, ProxyTypes proxyType, String proxyHost, Int32 proxyPort, String proxyUsername, String proxyPassword)
+   at Renci.SshNet.PasswordConnectionInfo..ctor(String host, Int32 port, String username, String password)
+   at Renci.SshNet.SftpClient..ctor(String host, Int32 port, String username, String password)
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 64
+2022-05-02 22:41:33.811 +06:00 [FTL] Unable to Connect  SFTP Server :  , User : 
+System.ArgumentException: username
+   at Renci.SshNet.AuthenticationMethod..ctor(String username)
+   at Renci.SshNet.PasswordAuthenticationMethod..ctor(String username, Byte[] password)
+   at Renci.SshNet.PasswordConnectionInfo..ctor(String host, Int32 port, String username, Byte[] password, ProxyTypes proxyType, String proxyHost, Int32 proxyPort, String proxyUsername, String proxyPassword)
+   at Renci.SshNet.PasswordConnectionInfo..ctor(String host, Int32 port, String username, String password)
+   at Renci.SshNet.SftpClient..ctor(String host, Int32 port, String username, String password)
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 64
+2022-05-02 22:41:33.811 +06:00 [FTL] Unable to Connect  SFTP Server :  , User : 
+System.ArgumentException: username
+   at Renci.SshNet.AuthenticationMethod..ctor(String username)
+   at Renci.SshNet.PasswordAuthenticationMethod..ctor(String username, Byte[] password)
+   at Renci.SshNet.PasswordConnectionInfo..ctor(String host, Int32 port, String username, Byte[] password, ProxyTypes proxyType, String proxyHost, Int32 proxyPort, String proxyUsername, String proxyPassword)
+   at Renci.SshNet.PasswordConnectionInfo..ctor(String host, Int32 port, String username, String password)
+   at Renci.SshNet.SftpClient..ctor(String host, Int32 port, String username, String password)
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 64
+2022-05-02 22:42:54.236 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:42:54.580 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:45:16.522 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:45:16.774 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:45:54.030 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:45:54.264 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:48:24.245 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:48:24.620 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:48:25.785 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:48:25.787 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:48:25.789 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:48:25.790 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:48:25.791 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:48:25.882 +06:00 [INF] Server desktop-snlcpoq:11564:1e18647d successfully announced in 32.8947 ms
+2022-05-02 22:48:25.904 +06:00 [INF] Server desktop-snlcpoq:11564:1e18647d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:48:25.917 +06:00 [INF] 1 servers were removed due to timeout
+2022-05-02 22:48:26.378 +06:00 [INF] Server desktop-snlcpoq:11564:1e18647d all the dispatchers started
+2022-05-02 22:48:26.516 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:48:26.518 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:48:26.525 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:48:26.527 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:48:26.528 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:48:26.749 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:48:29.316 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 22:48:29.318 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 22:48:29.319 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 22:48:32.494 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\photo_anup.JPG
+2022-05-02 22:48:32.561 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\photo_anup2.jpg
+2022-05-02 22:48:32.598 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\susmoy2.jpg
+2022-05-02 22:48:32.626 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\user.png
+2022-05-02 22:48:32.753 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Data\photo_anup.JPG
+2022-05-02 22:48:32.836 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Data\photo_anup2.jpg
+2022-05-02 22:48:33.021 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Data\susmoy2.jpg
+2022-05-02 22:48:33.453 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Data\user.png
+2022-05-02 22:48:46.685 +06:00 [INF] HTTP GET /hangfire responded 200 in 227.2999 ms
+2022-05-02 22:48:49.051 +06:00 [INF] HTTP GET /hangfire/jobs/enqueued responded 200 in 132.3048 ms
+2022-05-02 22:48:51.378 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 102.0354 ms
+2022-05-02 22:48:53.418 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 21.5501 ms
+2022-05-02 22:48:55.456 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.5003 ms
+2022-05-02 22:48:57.591 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.3613 ms
+2022-05-02 22:48:59.639 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.1553 ms
+2022-05-02 22:49:01.686 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.7089 ms
+2022-05-02 22:49:03.719 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.1213 ms
+2022-05-02 22:49:05.752 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.5360 ms
+2022-05-02 22:49:07.810 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.8487 ms
+2022-05-02 22:49:09.857 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 5.0346 ms
+2022-05-02 22:49:13.246 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.1124 ms
+2022-05-02 22:49:15.282 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.6943 ms
+2022-05-02 22:49:17.321 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.3173 ms
+2022-05-02 22:49:19.372 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 11.5823 ms
+2022-05-02 22:49:21.436 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 2.9235 ms
+2022-05-02 22:49:23.473 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.4822 ms
+2022-05-02 22:49:25.511 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.1464 ms
+2022-05-02 22:49:27.549 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 4.6383 ms
+2022-05-02 22:49:29.586 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.4047 ms
+2022-05-02 22:49:31.610 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 3.1070 ms
+2022-05-02 22:49:33.642 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 11.4759 ms
+2022-05-02 22:49:35.676 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.5512 ms
+2022-05-02 22:49:37.711 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.3471 ms
+2022-05-02 22:49:39.755 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.8220 ms
+2022-05-02 22:49:41.820 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 16.6281 ms
+2022-05-02 22:49:43.855 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.2733 ms
+2022-05-02 22:49:45.899 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.1960 ms
+2022-05-02 22:49:47.957 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 25.0699 ms
+2022-05-02 22:49:49.998 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.4866 ms
+2022-05-02 22:49:52.055 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.9582 ms
+2022-05-02 22:49:54.094 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.2563 ms
+2022-05-02 22:49:56.127 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.4310 ms
+2022-05-02 22:49:58.153 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 3.0903 ms
+2022-05-02 22:50:00.178 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.2068 ms
+2022-05-02 22:50:02.241 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.6222 ms
+2022-05-02 22:50:04.295 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.0585 ms
+2022-05-02 22:50:06.367 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.3682 ms
+2022-05-02 22:50:08.435 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.7420 ms
+2022-05-02 22:50:10.488 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 3.5517 ms
+2022-05-02 22:50:11.893 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:50:12.487 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 22:50:12.492 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 22:50:12.495 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 22:50:12.541 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.3503 ms
+2022-05-02 22:50:14.568 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.3870 ms
+2022-05-02 22:50:16.636 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.5653 ms
+2022-05-02 22:50:18.671 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.7635 ms
+2022-05-02 22:50:20.718 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.5166 ms
+2022-05-02 22:50:22.759 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.1402 ms
+2022-05-02 22:50:24.793 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.9195 ms
+2022-05-02 22:50:26.828 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.2100 ms
+2022-05-02 22:50:28.872 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.0390 ms
+2022-05-02 22:50:30.905 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.1315 ms
+2022-05-02 22:50:32.951 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 10.6845 ms
+2022-05-02 22:50:34.988 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.5033 ms
+2022-05-02 22:50:37.033 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.4096 ms
+2022-05-02 22:50:39.060 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.3264 ms
+2022-05-02 22:50:41.106 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.0333 ms
+2022-05-02 22:50:43.152 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.1495 ms
+2022-05-02 22:50:45.189 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 9.5014 ms
+2022-05-02 22:50:47.231 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.6005 ms
+2022-05-02 22:50:49.279 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.5763 ms
+2022-05-02 22:50:51.318 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.2966 ms
+2022-05-02 22:50:53.361 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.8389 ms
+2022-05-02 22:50:55.394 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 8.3037 ms
+2022-05-02 22:50:57.422 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.7540 ms
+2022-05-02 22:50:59.905 +06:00 [INF] HTTP POST /hangfire/stats responded 200 in 7.8613 ms
+2022-05-02 22:53:41.151 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 22:53:41.462 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 22:53:42.185 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 22:53:42.189 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 22:53:42.194 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 22:53:42.198 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 22:53:42.202 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 22:53:42.277 +06:00 [INF] Server desktop-snlcpoq:13804:9be10adc successfully announced in 26.4337 ms
+2022-05-02 22:53:42.302 +06:00 [INF] Server desktop-snlcpoq:13804:9be10adc is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 22:53:43.482 +06:00 [INF] Server desktop-snlcpoq:13804:9be10adc all the dispatchers started
+2022-05-02 22:53:43.691 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:53:43.692 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:53:43.691 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:53:43.692 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:53:43.801 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 22:53:43.803 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 22:53:43.808 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 22:53:43.809 +06:00 [INF] Hosting environment: Development
+2022-05-02 22:53:43.811 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 22:53:45.167 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:53:45.694 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:53:46.729 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:53:47.745 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:53:48.755 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:53:49.791 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:53:50.824 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:54:04.971 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.119 ], [User : anup] due to A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Connect(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(String host, Int32 port, TimeSpan timeout)
+   at Renci.SshNet.Connection.DirectConnector.Connect(IConnectionInfo connectionInfo)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 22:54:04.971 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.119 ], [User : anup] due to A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Connect(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(String host, Int32 port, TimeSpan timeout)
+   at Renci.SshNet.Connection.DirectConnector.Connect(IConnectionInfo connectionInfo)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 22:54:04.971 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.119 ], [User : anup] due to A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Connect(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(String host, Int32 port, TimeSpan timeout)
+   at Renci.SshNet.Connection.DirectConnector.Connect(IConnectionInfo connectionInfo)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 22:54:13.835 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 22:54:25.899 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.119 ], [User : anup] due to A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Connect(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(String host, Int32 port, TimeSpan timeout)
+   at Renci.SshNet.Connection.DirectConnector.Connect(IConnectionInfo connectionInfo)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 22:54:25.960 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.119 ], [User : anup] due to A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Connect(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(String host, Int32 port, TimeSpan timeout)
+   at Renci.SshNet.Connection.DirectConnector.Connect(IConnectionInfo connectionInfo)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 22:54:25.976 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.119 ], [User : anup] due to A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Connect(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(String host, Int32 port, TimeSpan timeout)
+   at Renci.SshNet.Connection.DirectConnector.Connect(IConnectionInfo connectionInfo)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 22:54:46.895 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.119 ], [User : anup] due to A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Connect(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(String host, Int32 port, TimeSpan timeout)
+   at Renci.SshNet.Connection.DirectConnector.Connect(IConnectionInfo connectionInfo)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 22:54:46.989 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.119 ], [User : anup] due to A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Connect(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(String host, Int32 port, TimeSpan timeout)
+   at Renci.SshNet.Connection.DirectConnector.Connect(IConnectionInfo connectionInfo)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 22:54:47.023 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.119 ], [User : anup] due to A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Connect(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(String host, Int32 port, TimeSpan timeout)
+   at Renci.SshNet.Connection.DirectConnector.Connect(IConnectionInfo connectionInfo)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 22:54:59.776 +06:00 [INF] HTTP GET /api/Files/GetAllSFTPEventLogs responded 200 in 1936.7856 ms
+2022-05-02 22:55:07.965 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.119 ], [User : anup] due to A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Connect(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(String host, Int32 port, TimeSpan timeout)
+   at Renci.SshNet.Connection.DirectConnector.Connect(IConnectionInfo connectionInfo)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 22:55:08.039 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.119 ], [User : anup] due to A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Connect(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(String host, Int32 port, TimeSpan timeout)
+   at Renci.SshNet.Connection.DirectConnector.Connect(IConnectionInfo connectionInfo)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 22:55:08.078 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.119 ], [User : anup] due to A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Connect(Socket socket, IPEndPoint remoteEndpoint, TimeSpan connectTimeout)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(String host, Int32 port, TimeSpan timeout)
+   at Renci.SshNet.Connection.DirectConnector.Connect(IConnectionInfo connectionInfo)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 22:55:20.149 +06:00 [INF] Application is shutting down...
+2022-05-02 22:55:20.184 +06:00 [INF] Server desktop-snlcpoq:13804:9be10adc caught stopping signal...
+2022-05-02 22:55:20.191 +06:00 [INF] Server desktop-snlcpoq:13804:9be10adc caught stopped signal...
+2022-05-02 22:55:20.322 +06:00 [INF] Server desktop-snlcpoq:13804:9be10adc All dispatchers stopped
+2022-05-02 22:55:20.340 +06:00 [INF] Server desktop-snlcpoq:13804:9be10adc successfully reported itself as stopped in 4.2599 ms
+2022-05-02 22:55:20.341 +06:00 [INF] Server desktop-snlcpoq:13804:9be10adc has been stopped in total 151.6889 ms
+2022-05-02 23:00:32.986 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 23:00:33.228 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 23:00:33.923 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 23:00:33.926 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 23:00:33.930 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 23:00:33.935 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 23:00:33.939 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 23:00:34.033 +06:00 [INF] Server desktop-snlcpoq:17240:c202dde3 successfully announced in 51.3971 ms
+2022-05-02 23:00:34.054 +06:00 [INF] Server desktop-snlcpoq:17240:c202dde3 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 23:00:34.082 +06:00 [INF] 1 servers were removed due to timeout
+2022-05-02 23:00:34.446 +06:00 [INF] Server desktop-snlcpoq:17240:c202dde3 all the dispatchers started
+2022-05-02 23:00:34.551 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 23:00:34.553 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 23:00:34.558 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 23:00:34.560 +06:00 [INF] Hosting environment: Development
+2022-05-02 23:00:34.561 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 23:00:34.705 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 23:00:36.151 +06:00 [FTL] Unable to connect   SFTP Host [Server : 192.168.0.109 ], [User : anupa] due to Permission denied (password).
+Renci.SshNet.Common.SshAuthenticationException: Permission denied (password).
+   at Renci.SshNet.ClientAuthentication.Authenticate(IConnectionInfoInternal connectionInfo, ISession session)
+   at Renci.SshNet.ConnectionInfo.Authenticate(ISession session, IServiceFactory serviceFactory)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 66
+2022-05-02 23:01:37.712 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 23:01:37.945 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 23:01:38.621 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 23:01:38.625 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 23:01:38.629 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 23:01:38.634 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 23:01:38.640 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 23:01:38.705 +06:00 [INF] Server desktop-snlcpoq:2424:41266a98 successfully announced in 23.4544 ms
+2022-05-02 23:01:38.730 +06:00 [INF] Server desktop-snlcpoq:2424:41266a98 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 23:01:39.174 +06:00 [INF] Server desktop-snlcpoq:2424:41266a98 all the dispatchers started
+2022-05-02 23:01:39.343 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 23:01:39.346 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 23:01:39.347 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 23:01:39.355 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 23:01:39.357 +06:00 [INF] Hosting environment: Development
+2022-05-02 23:01:39.358 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 23:01:41.071 +06:00 [INF] Connected to SFTP Host [Server : 192.168.0.109 , User : anup]
+2022-05-02 23:01:41.079 +06:00 [INF] Default Remote Directory : /C:/Users/Anup
+2022-05-02 23:01:41.080 +06:00 [INF] Current Working Directory : /C:/SFTPs
+2022-05-02 23:01:41.238 +06:00 [FTL] Unable to connect SFTP Host [Server : 192.168.0.109 , User : anup] due to No such file
+Renci.SshNet.Common.SftpPathNotFoundException: No such file
+   at Renci.SshNet.Sftp.SftpSession.RequestOpenDir(String path, Boolean nullOnError)
+   at Renci.SshNet.SftpClient.InternalListDirectory(String path, Action`1 listCallback)
+   at Renci.SshNet.SftpClient.ListDirectory(String path, Action`1 listCallback)
+   at MediaFon.FileManager.Core.Services.SSHService.SyncFileAndDirectory(String remotePath, String localPath) in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 115
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 86
+2022-05-02 23:02:09.411 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 23:02:09.763 +06:00 [INF] Connected to SFTP Host [Server : 192.168.0.109 , User : anup]
+2022-05-02 23:02:09.766 +06:00 [INF] Default Remote Directory : /C:/Users/Anup
+2022-05-02 23:02:09.767 +06:00 [INF] Current Working Directory : /C:/SFTPs
+2022-05-02 23:02:09.837 +06:00 [FTL] Unable to connect SFTP Host [Server : 192.168.0.109 , User : anup] due to No such file
+Renci.SshNet.Common.SftpPathNotFoundException: No such file
+   at Renci.SshNet.Sftp.SftpSession.RequestOpenDir(String path, Boolean nullOnError)
+   at Renci.SshNet.SftpClient.InternalListDirectory(String path, Action`1 listCallback)
+   at Renci.SshNet.SftpClient.ListDirectory(String path, Action`1 listCallback)
+   at MediaFon.FileManager.Core.Services.SSHService.SyncFileAndDirectory(String remotePath, String localPath) in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 115
+   at MediaFon.FileManager.Core.Services.SSHService.InitRemoteSFTPSyncWithLocal() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 86
+2022-05-02 23:05:19.258 +06:00 [INF] Start installing Hangfire SQL objects...
+2022-05-02 23:05:19.539 +06:00 [INF] Hangfire SQL objects installed.
+2022-05-02 23:05:24.100 +06:00 [INF] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: FileManagerDb, Schema: hangfire'
+2022-05-02 23:05:24.104 +06:00 [INF] Using the following options for SQL Server job storage:
+2022-05-02 23:05:24.109 +06:00 [INF]     Queue poll interval: 00:00:15.
+2022-05-02 23:05:24.118 +06:00 [INF]     Invisibility timeout: 00:30:00.
+2022-05-02 23:05:24.120 +06:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2022-05-02 23:05:24.291 +06:00 [INF] Server desktop-snlcpoq:11812:7a9f11f7 successfully announced in 46.0223 ms
+2022-05-02 23:05:24.325 +06:00 [INF] Server desktop-snlcpoq:11812:7a9f11f7 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2022-05-02 23:05:24.981 +06:00 [INF] Server desktop-snlcpoq:11812:7a9f11f7 all the dispatchers started
+2022-05-02 23:05:25.084 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 23:05:25.086 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 23:05:25.091 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 23:05:25.092 +06:00 [INF] Hosting environment: Development
+2022-05-02 23:05:25.094 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 23:05:25.374 +06:00 [INF] Remote SFTP Background Job  Started.........
+2022-05-02 23:05:27.536 +06:00 [INF] Connected to SFTP Host [Server : 192.168.0.109 , User : anup]
+2022-05-02 23:05:27.853 +06:00 [WRN] Current Working Directory : /C:/SFTPs does not exists in remote server.Please change the path in Appsetting.json.
+2022-05-02 23:05:27.951 +06:00 [INF] Default Remote Directory : /C:/Users/Anup
+2022-05-02 23:05:27.954 +06:00 [INF] Current Working Directory : /C:/Users/Anup
+2022-05-02 23:05:32.647 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.gitconfig
+2022-05-02 23:05:32.677 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.node_repl_history
+2022-05-02 23:05:33.934 +06:00 [ERR] Failure
+Renci.SshNet.Common.SshException: Failure
+   at Renci.SshNet.Common.AsyncResult.EndInvoke()
+   at Renci.SshNet.Common.AsyncResult`1.EndInvoke()
+   at Renci.SshNet.Sftp.SftpSession.EndOpen(SftpOpenAsyncResult asyncResult)
+   at Renci.SshNet.ServiceFactory.CreateSftpFileReader(String fileName, ISftpSession sftpSession, UInt32 bufferSize)
+   at Renci.SshNet.SftpClient.InternalDownloadFile(String path, Stream output, SftpDownloadAsyncResult asyncResult, Action`1 downloadCallback)
+   at Renci.SshNet.SftpClient.DownloadFile(String path, Stream output, Action`1 downloadCallback)
+   at MediaFon.FileManager.Core.Services.SSHService.DownloadFile(SftpFile file, String currentLocalPath) in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 164
+2022-05-02 23:05:34.258 +06:00 [ERR] Failure
+Renci.SshNet.Common.SshException: Failure
+   at Renci.SshNet.Common.AsyncResult.EndInvoke()
+   at Renci.SshNet.Common.AsyncResult`1.EndInvoke()
+   at Renci.SshNet.Sftp.SftpSession.EndOpen(SftpOpenAsyncResult asyncResult)
+   at Renci.SshNet.ServiceFactory.CreateSftpFileReader(String fileName, ISftpSession sftpSession, UInt32 bufferSize)
+   at Renci.SshNet.SftpClient.InternalDownloadFile(String path, Stream output, SftpDownloadAsyncResult asyncResult, Action`1 downloadCallback)
+   at Renci.SshNet.SftpClient.DownloadFile(String path, Stream output, Action`1 downloadCallback)
+   at MediaFon.FileManager.Core.Services.SSHService.DownloadFile(SftpFile file, String currentLocalPath) in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 164
+2022-05-02 23:05:34.316 +06:00 [ERR] Failure
+Renci.SshNet.Common.SshException: Failure
+   at Renci.SshNet.Common.AsyncResult.EndInvoke()
+   at Renci.SshNet.Common.AsyncResult`1.EndInvoke()
+   at Renci.SshNet.Sftp.SftpSession.EndOpen(SftpOpenAsyncResult asyncResult)
+   at Renci.SshNet.ServiceFactory.CreateSftpFileReader(String fileName, ISftpSession sftpSession, UInt32 bufferSize)
+   at Renci.SshNet.SftpClient.InternalDownloadFile(String path, Stream output, SftpDownloadAsyncResult asyncResult, Action`1 downloadCallback)
+   at Renci.SshNet.SftpClient.DownloadFile(String path, Stream output, Action`1 downloadCallback)
+   at MediaFon.FileManager.Core.Services.SSHService.DownloadFile(SftpFile file, String currentLocalPath) in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 164
+2022-05-02 23:05:34.751 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\NTUSER.DAT{1d240824-8241-11ec-9687-80e65028e3c3}.TM.blf
+2022-05-02 23:05:35.110 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\NTUSER.DAT{1d240824-8241-11ec-9687-80e65028e3c3}.TMContainer00000000000000000001.regtrans-ms
+2022-05-02 23:05:35.340 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\NTUSER.DAT{1d240824-8241-11ec-9687-80e65028e3c3}.TMContainer00000000000000000002.regtrans-ms
+2022-05-02 23:05:35.402 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\ntuser.ini
+2022-05-02 23:05:37.242 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Onneson.mdf
+2022-05-02 23:05:38.259 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\OnnesonDB.mdf
+2022-05-02 23:05:39.563 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\OnnesonDB_log.ldf
+2022-05-02 23:05:40.984 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\Onneson_log.ldf
+2022-05-02 23:05:40.986 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android 
+2022-05-02 23:05:41.140 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\adbkey
+2022-05-02 23:05:41.260 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\adbkey.pub
+2022-05-02 23:05:41.318 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\analytics.settings
+2022-05-02 23:05:41.395 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\debug.keystore
+2022-05-02 23:05:41.420 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\debug.keystore.lock
+2022-05-02 23:05:41.424 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\avd 
+2022-05-02 23:05:41.445 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache 
+2022-05-02 23:05:41.647 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_027553a3-sys-img2-1_xml
+2022-05-02 23:05:41.725 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_21774538-addon2-1_xml
+2022-05-02 23:05:41.814 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_3b8d7fbb-sys-img2-1_xml
+2022-05-02 23:05:41.884 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_48262a29-sys-img2-1_xml
+2022-05-02 23:05:41.980 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_53d0da2b-addon2-1_xml
+2022-05-02 23:05:42.077 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_6dabee33-sys-img2-1_xml
+2022-05-02 23:05:42.167 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_70436d91-sys-img2-1_xml
+2022-05-02 23:05:42.264 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_725a2f81-sys-img2-1_xml
+2022-05-02 23:05:42.325 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_754d6006-sys-img2-1_xml
+2022-05-02 23:05:42.383 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_a351a33a-sys-img2-1_xml
+2022-05-02 23:05:42.577 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_b735609c-repository2-1_xml
+2022-05-02 23:05:42.650 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_d1bcd755-sys-img2-1_xml
+2022-05-02 23:05:42.702 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_d29da320-addons_list-3_xml
+2022-05-02 23:05:42.773 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_d79225ab-addon2-1_xml
+2022-05-02 23:05:42.820 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkbin-1_da180c69-sys-img2-1_xml
+2022-05-02 23:05:42.875 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_027553a3-sys-img2-1_xml
+2022-05-02 23:05:42.912 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_21774538-addon2-1_xml
+2022-05-02 23:05:43.005 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_3b8d7fbb-sys-img2-1_xml
+2022-05-02 23:05:43.087 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_48262a29-sys-img2-1_xml
+2022-05-02 23:05:43.159 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_53d0da2b-addon2-1_xml
+2022-05-02 23:05:43.248 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_6dabee33-sys-img2-1_xml
+2022-05-02 23:05:43.350 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_70436d91-sys-img2-1_xml
+2022-05-02 23:05:43.422 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_725a2f81-sys-img2-1_xml
+2022-05-02 23:05:43.664 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_754d6006-sys-img2-1_xml
+2022-05-02 23:05:43.761 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_a351a33a-sys-img2-1_xml
+2022-05-02 23:05:43.831 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_b735609c-repository2-1_xml
+2022-05-02 23:05:43.905 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_d1bcd755-sys-img2-1_xml
+2022-05-02 23:05:44.066 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_d29da320-addons_list-3_xml
+2022-05-02 23:05:44.365 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_d79225ab-addon2-1_xml
+2022-05-02 23:05:44.824 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\cache\sdkinf-1_da180c69-sys-img2-1_xml
+2022-05-02 23:05:45.012 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\studio 
+2022-05-02 23:05:45.109 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\studio\installer 
+2022-05-02 23:05:45.210 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.android\studio\installer\firstrun.data
+2022-05-02 23:05:45.221 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.cache 
+2022-05-02 23:05:45.272 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.cache\tooling 
+2022-05-02 23:05:45.332 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.cache\tooling\gradle 
+2022-05-02 23:05:45.472 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.cache\tooling\gradle\versions.json
+2022-05-02 23:05:45.479 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.config 
+2022-05-02 23:05:45.586 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.config\configstore 
+2022-05-02 23:05:45.711 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.config\configstore\update-notifier-json-server.json
+2022-05-02 23:05:45.771 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.config\configstore\update-notifier-npm.json
+2022-05-02 23:05:45.773 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.dotnet 
+2022-05-02 23:05:45.901 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.dotnet\.workloadAdvertisingManifestSentinel6.0.300
+2022-05-02 23:05:46.043 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.dotnet\.workloadAdvertisingUpdates6.0.300
+2022-05-02 23:05:46.133 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\LocalFileStorage\.dotnet\5.0.100_IsDockerContainer.dotnetUserLevelCache

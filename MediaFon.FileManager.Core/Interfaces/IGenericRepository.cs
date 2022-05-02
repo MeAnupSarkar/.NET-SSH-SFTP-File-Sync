@@ -13,6 +13,8 @@ public interface IGenericRepository<T>   where T : class
     Task AddRangeAsync(IEnumerable<T> entities);
     IEnumerable<T> Find(Expression<Func<T, bool>> expression);
     IEnumerable<T> GetAll();
+    Task<IEnumerable<T>> GetAllAsync();
+
     T? GetById(Guid id);
     Task<T?> GetByIdAsync(Guid id);
     Task Update(T entity);

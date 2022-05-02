@@ -1,6 +1,8 @@
-﻿using MediaFon.FileManager.Core.Interfaces;
+﻿
+using MediaFon.FileManager.Core.Interfaces;
 using MediaFon.FileManager.Domain.Entity;
-using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Configuration;
+
 using Renci.SshNet;
 using Renci.SshNet.Sftp;
 using Serilog;
@@ -8,20 +10,21 @@ using System.Text;
 
 namespace MediaFon.FileManager.Core.Services;
 
-public class SSHService
+public class SSHService : ISSHService
 {
 
     SftpClient client;
     IFilesInfoServiceUnitOfWork filesInfoService;
 
-    string localContentRootPath;
-    string workingDirectory;
-    string SFTP_SERVER;
-    string SFTP_USER;
-    string SFTP_PASS;
+
+    string SFTP_SERVER = String.Empty;
+    string SFTP_USER = String.Empty;
+    string SFTP_PASS = String.Empty;
     int SFTP_PORT = 22;
 
- 
+    string localContentRootPath = String.Empty;
+    string userDefinedRemoteWorkingDirectory = String.Empty;
+
     DateTime jobStartedAt;
     int totalDirectoryFound = 0;
     int totalFilesFound = 0;
@@ -29,33 +32,29 @@ public class SSHService
     int totalFilesModified = 0;
 
 
-    public SSHService(IFilesInfoServiceUnitOfWork filesInfoServiceUnitOfWork, string contentRootPath)
+     
+
+    public SSHService(IFilesInfoServiceUnitOfWork filesInfoServiceUnitOfWork, IConfiguration config)
     {
         filesInfoService = filesInfoServiceUnitOfWork;
 
-        localContentRootPath = contentRootPath;
-        workingDirectory = @"/C:/SFTP";
-        SFTP_SERVER = "192.168.0.109";
-        SFTP_USER = "anup";
-        SFTP_PASS = "Virtual07";
+        localContentRootPath = $"{System.IO.Directory.GetCurrentDirectory()}\\{config["SSH_Settings:LocalFileStoreLocation"]}"; ;
+
+        this.SFTP_SERVER = config["SSH_Settings:SFTP_SERVER"].ToString();
+        this.SFTP_USER = config["SSH_Settings:SFTP_USER"].ToString();
+        this.SFTP_PASS = config["SSH_Settings:SFTP_PASS"].ToString();
+        this.SFTP_PORT = String.IsNullOrEmpty(config["SSH_Settings:SFTP_PORT"]) ? 22 : Convert.ToInt32(config["SSH_Settings:SFTP_PORT"]);
+        this.userDefinedRemoteWorkingDirectory = config["SSH_Settings:WorkingDirectory"].ToString();
 
         jobStartedAt = DateTime.UtcNow;
     }
 
 
 
-    public bool CheckIfConnected() => client.IsConnected;
 
-    public bool Disconnect()
+    public async Task<EventLogs> InitRemoteSFTPSyncWithLocal()
     {
-        if (client.IsConnected)
-            client.Disconnect();
-
-        return client.IsConnected;
-    }
-
-    public async Task<List<string>?> ListDirectory()
-    {
+        Log.Information($"Remote SFTP Background Job  Started.........");
 
         try
         {
@@ -65,38 +64,47 @@ public class SSHService
                 client.ConnectionInfo.Timeout = TimeSpan.FromMinutes(180);
                 client.OperationTimeout = TimeSpan.FromMinutes(180);
                 client.Connect();
-             
+
 
                 if (client.IsConnected)
-                    Log.Information($"Connected to SFTP Server : {SFTP_SERVER} , User : {SFTP_USER}");
+                    Log.Information($"Connected to SFTP Host [Server : {SFTP_SERVER} , User : {SFTP_USER}]");
 
                 List<string> directories = new();
 
-                var defaultDirectory = client.WorkingDirectory;
+                var defaultRemoteDirectory = client.WorkingDirectory;
+
+                if(!client.Exists(userDefinedRemoteWorkingDirectory))
+                {
+                    Log.Warning($"Current Working Directory : {userDefinedRemoteWorkingDirectory} does not exists in remote server.Please change the path in Appsetting.json.");
+                    userDefinedRemoteWorkingDirectory = defaultRemoteDirectory;
+                }
+
+                Log.Information($"Default Remote Directory : {defaultRemoteDirectory}");
+                Log.Information($"Current Working Directory : {userDefinedRemoteWorkingDirectory}");
+
+                await SyncFileAndDirectory(userDefinedRemoteWorkingDirectory, localContentRootPath);
 
 
-                Log.Information($"Default Directory : {defaultDirectory}");
-                Log.Information($"Working Directory : {workingDirectory}");
+                
 
-                await SyncFileAndDirectory(workingDirectory, localContentRootPath);
+                var eventLog = await AddEventLogsToDatabase();
 
-
-
-                await AddEventLogsToDatabase();
                 await filesInfoService.Complete();
 
-                return directories;
+                return eventLog;
             }
 
         }
         catch (Exception e)
         {
-            Log.Fatal(e, $"Unable to Connect  SFTP Server : {SFTP_SERVER} , User : {SFTP_USER}");
+            
+            Log.Fatal(e,$"Unable to connect SFTP Host [Server : {SFTP_SERVER} , User : {SFTP_USER}] due to {e.Message}");
         }
 
 
         return null;
     }
+
 
     private async Task SyncFileAndDirectory(string remotePath, string localPath)
     {
@@ -127,9 +135,9 @@ public class SSHService
                 await DownloadFile(item, currentLocalPath.ToString());
 
         }
-      
+
     }
- 
+
 
     private async Task DownloadFile(SftpFile file, string currentLocalPath)
     {
@@ -140,26 +148,26 @@ public class SSHService
 
             if (existingModifiedFile != null)
             {
-               
+
                 using (Stream fileStream = System.IO.File.OpenWrite($"{currentLocalPath}\\{file.Name}"))
                 {
                     client.DownloadFile(file.FullName, fileStream);
-                   
+
 
                     await UpdateFileInfoToDatabase(file, existingModifiedFile);
                 }
             }
-            else if(!filesInfoService.Files.Any(s => s.RemotePath == file.FullName  ))
+            else if (!filesInfoService.Files.Any(s => s.RemotePath == file.FullName))
             {
                 using (Stream fileStream = System.IO.File.Create($"{currentLocalPath}\\{file.Name}"))
                 {
-                    client.DownloadFile(file.FullName, fileStream);                  
-                   
+                    client.DownloadFile(file.FullName, fileStream);
+
                     await AddFileInfoToDatabase(file, currentLocalPath);
-                   
+
                 }
             }
-           
+
         }
         catch (DirectoryNotFoundException e)
         {
@@ -239,7 +247,7 @@ public class SSHService
         };
 
         await filesInfoService.Files.AddAsync(fileInfo);
-        
+
         Log.Information($"SFTP File Downloaded and save to location  : {localPath}\\{file.Name}");
         totalFilesCreated++;
     }
@@ -253,7 +261,7 @@ public class SSHService
         existingModifiedFile.LastWriteTimeUtc = file.LastWriteTimeUtc;
         existingModifiedFile.Size = file.Length;
         existingModifiedFile.ModifiedAt = DateTime.UtcNow;
- 
+
         await filesInfoService.Files.Update(existingModifiedFile);
 
         Log.Information($"SFTP File {file.FullName} has modified since last sync. File updated to newer file  location : {existingModifiedFile.LocalPath}");
@@ -261,7 +269,7 @@ public class SSHService
 
     }
 
-    private async Task AddEventLogsToDatabase()
+    private async Task<EventLogs> AddEventLogsToDatabase()
     {
         var eventLog = new EventLogs
         {
@@ -275,10 +283,24 @@ public class SSHService
             CreatedAt = DateTime.UtcNow,
             CreatedBy = "Admin"
         };
- 
+
         await filesInfoService.EventLogs.AddAsync(eventLog);
- 
+
+        return eventLog;
+
     }
- 
+
+
+
+    public bool CheckIfConnected() => client.IsConnected;
+
+    public bool Disconnect()
+    {
+        if (client.IsConnected)
+            client.Disconnect();
+
+        return client.IsConnected;
+    }
+
 
 }

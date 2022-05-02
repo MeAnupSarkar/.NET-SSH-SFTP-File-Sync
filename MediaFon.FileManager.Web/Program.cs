@@ -24,28 +24,25 @@ builder.Services.AddTransient<IEventLogsRepository, EventLogsRepository>();
 builder.Services.AddTransient<IFilesInfoServiceUnitOfWork, FilesInfoDbService>();
 builder.Services.AddTransient<ICacheService, InMemoryCacheService>();
 
-//builder.Services.AddHangfire(x => x.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
-//builder.Services.AddHangfireServer();
+ 
 
-builder.Services.AddHangfire(configuration => configuration
-        .SetDataCompatibilityLevel(CompatibilityLevel.Version_170)
-        .UseSimpleAssemblyNameTypeSerializer()
-        .UseRecommendedSerializerSettings()
-        .UsePostgreSqlStorage(builder.Configuration.GetConnectionString("PostgreSqlContext")));
+builder.Services.AddHangfire(c => c
+                .UsePostgreSqlStorage(builder.Configuration.GetConnectionString("PostgreSqlContext")));
 
 // Add the processing server as IHostedService
 builder.Services.AddHangfireServer();
 
 builder.Services.AddInfrastructure(builder.Configuration);
 
- 
+
+
 builder.Host.UseSerilog((ctx, lc) => lc
     .WriteTo.Console()
     .ReadFrom.Configuration(ctx.Configuration));
 
  
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c => c.EnableAnnotations());
 
 var app = builder.Build();
 
@@ -63,5 +60,25 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseHangfireDashboard();
+
+
+//var filesInfoDbService = app.Services.GetRequiredService<IFilesInfoServiceUnitOfWork>();
+using (var serviceScope = app.Services.CreateScope())
+{
+    var services = serviceScope.ServiceProvider;
+
+    var filesInfoDbService = services.GetRequiredService<IFilesInfoServiceUnitOfWork>();
+
+    var ssh = new SSHService(filesInfoDbService,  builder.Configuration);
+    //ssh.LaunchBackgrounJob();
+
+    RecurringJob.AddOrUpdate("File Synchronizations from SFTP Server",
+                          () => ssh.InitRemoteSFTPSyncWithLocal(),
+                          Cron.MinuteInterval(2)
+                        );
+
+}
 
 app.Run();

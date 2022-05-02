@@ -11,7 +11,6 @@ public static  class Startup
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration config)
     {
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
-        return services
-              .AddDbContext<ApplicationDbContext>(option => option.UseNpgsql(config.GetConnectionString("PostgreSqlContext")));
+        return services.AddDbContext<ApplicationDbContext>(option => option.UseNpgsql(config.GetConnectionString("PostgreSqlContext")));
     }
 }

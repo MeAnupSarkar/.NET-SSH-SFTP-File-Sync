@@ -1,5 +1,6 @@
 ﻿using MediaFon.FileManager.Core.Interfaces;
 using MediaFon.FileManager.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 namespace MediaFon.FileManager.Core.Repositories;
@@ -19,6 +20,8 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
     public IEnumerable<T> Find(Expression<Func<T, bool>> expression) => context.Set<T>().Where(expression);
 
     public IEnumerable<T> GetAll() => context.Set<T>().ToList();
+
+    public async Task<IEnumerable<T>> GetAllAsync() => await context.Set<T>().ToListAsync();
 
     public void Add(T entity) => context.Set<T>().Add(entity);
 
