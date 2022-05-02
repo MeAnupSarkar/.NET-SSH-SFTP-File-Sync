@@ -12,6 +12,8 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
 
     public T? GetById(Guid id) => context.Set<T>().Find(id);
 
+    public bool Any(Expression<Func<T, bool>> expression) => context.Set<T>().Any(expression);
+
     public async Task<T?> GetByIdAsync(Guid id) => await context.Set<T>().FindAsync(id);
 
     public IEnumerable<T> Find(Expression<Func<T, bool>> expression) => context.Set<T>().Where(expression);

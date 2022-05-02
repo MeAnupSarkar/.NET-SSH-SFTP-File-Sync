@@ -3,6 +3,7 @@ using System;
 using MediaFon.FileManager.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MediaFon.FileManager.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220501151037_ChangeDirectoryAndFilesTable")]
+    partial class ChangeDirectoryAndFilesTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -27,17 +29,8 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("text");
 
-                    b.Property<DateTime?>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<string>("CreatedBy")
-                        .HasColumnType("text");
-
                     b.Property<bool>("HasAccessPermission")
                         .HasColumnType("boolean");
-
-                    b.Property<Guid>("Id")
-                        .HasColumnType("uuid");
 
                     b.Property<DateTime?>("LastAccessTime")
                         .HasColumnType("timestamp with time zone");
@@ -54,9 +47,6 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
                     b.Property<string>("LocalPath")
                         .IsRequired()
                         .HasColumnType("text");
-
-                    b.Property<DateTime?>("ModifiedAt")
-                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("RemotePath")
                         .IsRequired()
@@ -102,9 +92,6 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
                     b.Property<string>("JobType")
                         .IsRequired()
                         .HasColumnType("text");
-
-                    b.Property<DateTime?>("ModifiedAt")
-                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Result")
                         .IsRequired()
@@ -155,9 +142,6 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
                     b.Property<string>("LocalPath")
                         .IsRequired()
                         .HasColumnType("text");
-
-                    b.Property<DateTime?>("ModifiedAt")
-                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Name")
                         .IsRequired()

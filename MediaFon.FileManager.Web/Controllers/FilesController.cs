@@ -1,5 +1,5 @@
 ﻿using MediaFon.FileManager.Core.Interfaces;
-using MediaFon.FileManager.Core.UnitOfWork.Services;
+using MediaFon.FileManager.Core.Services;
 using MediaFon.FileManager.Domain.Entity;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
@@ -13,15 +13,15 @@ namespace MediaFon.FileManager.Web.Controllers
     public class FilesController : ControllerBase
     {        
         IFilesInfoServiceUnitOfWork filesService;
-        SFTPService sftpService;
+        SSHService sftpService;
         private readonly IWebHostEnvironment _webHostEnvirnoment;
          
 
-        public FilesController(IFilesInfoServiceUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
+        public FilesController(IFilesInfoServiceUnitOfWork filesInfoDbService, IWebHostEnvironment webHostEnvironment)
         {
             this._webHostEnvirnoment = webHostEnvironment;
-            this.filesService = unitOfWork;
-            this.sftpService = new SFTPService(this.filesService, $"{this._webHostEnvirnoment.ContentRootPath}\\LocalFileStorage");
+            this.filesService = filesInfoDbService;
+            this.sftpService = new SSHService(this.filesService, $"{this._webHostEnvirnoment.ContentRootPath}\\LocalFileStorage");
 
 
         }
@@ -59,11 +59,11 @@ namespace MediaFon.FileManager.Web.Controllers
 
         [HttpGet()]
         [Route("ListDirectory")]
-        public List<String>? ListDirectory()
+        public async Task<List<String>?> ListDirectory()
         {
             //try
             //{
-                var folders = sftpService.ListDirectory();
+                var folders = await sftpService.ListDirectory();
                 return  folders ;
             //}
             //catch (Exception e)

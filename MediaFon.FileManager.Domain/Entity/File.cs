@@ -11,12 +11,7 @@ public class File : BaseEntity
     [Required]
     public string DirectoryName { get; set; }
 
-    [Required]
-    public Guid DirectoryId { get; set; }
-
-    public Directory Directory { get; set; }
-
-
+   
     public string RemotePath { get; set; }
 
     public string LocalPath { get; set; }

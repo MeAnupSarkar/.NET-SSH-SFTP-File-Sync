@@ -3,7 +3,7 @@
 using Microsoft.EntityFrameworkCore;
 using File = MediaFon.FileManager.Domain.Entity.File;
 using Directory = MediaFon.FileManager.Domain.Entity.Directory;
-
+using MediaFon.FileManager.Domain.Entity;
 
 namespace MediaFon.FileManager.Infrastructure.Data
 {
@@ -15,7 +15,7 @@ namespace MediaFon.FileManager.Infrastructure.Data
 
         public DbSet<File> Files { get; set; }
         public DbSet<Directory> Directories { get; set; }
-
+        public DbSet<EventLogs> EventLogs { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -37,8 +37,9 @@ namespace MediaFon.FileManager.Infrastructure.Data
 
             modelBuilder
                 .Entity<Directory>()
-                .Property(e => e.CreatedAt)
-                .HasDefaultValueSql("now()");
+                .HasKey(c=>c.Name);
+
+
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);

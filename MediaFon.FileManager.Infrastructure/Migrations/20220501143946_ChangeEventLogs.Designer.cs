@@ -3,6 +3,7 @@ using System;
 using MediaFon.FileManager.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MediaFon.FileManager.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220501143946_ChangeEventLogs")]
+    partial class ChangeEventLogs
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,20 +26,20 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
 
             modelBuilder.Entity("MediaFon.FileManager.Domain.Entity.Directory", b =>
                 {
-                    b.Property<string>("Name")
-                        .HasColumnType("text");
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
 
                     b.Property<DateTime?>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp with time zone")
+                        .HasDefaultValueSql("now()");
 
                     b.Property<string>("CreatedBy")
                         .HasColumnType("text");
 
                     b.Property<bool>("HasAccessPermission")
                         .HasColumnType("boolean");
-
-                    b.Property<Guid>("Id")
-                        .HasColumnType("uuid");
 
                     b.Property<DateTime?>("LastAccessTime")
                         .HasColumnType("timestamp with time zone");
@@ -55,8 +57,9 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateTime?>("ModifiedAt")
-                        .HasColumnType("timestamp with time zone");
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("RemotePath")
                         .IsRequired()
@@ -65,7 +68,7 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
                     b.Property<long>("Size")
                         .HasColumnType("bigint");
 
-                    b.HasKey("Name");
+                    b.HasKey("Id");
 
                     b.ToTable("Directories");
                 });
@@ -103,9 +106,6 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateTime?>("ModifiedAt")
-                        .HasColumnType("timestamp with time zone");
-
                     b.Property<string>("Result")
                         .IsRequired()
                         .HasColumnType("text");
@@ -128,6 +128,9 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
 
                     b.Property<string>("CreatedBy")
                         .HasColumnType("text");
+
+                    b.Property<Guid>("DirectoryId")
+                        .HasColumnType("uuid");
 
                     b.Property<string>("DirectoryName")
                         .IsRequired()
@@ -156,9 +159,6 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateTime?>("ModifiedAt")
-                        .HasColumnType("timestamp with time zone");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
@@ -172,7 +172,20 @@ namespace MediaFon.FileManager.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DirectoryId");
+
                     b.ToTable("Files");
+                });
+
+            modelBuilder.Entity("MediaFon.FileManager.Domain.Entity.File", b =>
+                {
+                    b.HasOne("MediaFon.FileManager.Domain.Entity.Directory", "Directory")
+                        .WithMany()
+                        .HasForeignKey("DirectoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Directory");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,0 +1,394 @@
+2022-05-02 18:30:23.761 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 18:30:23.892 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 18:30:23.914 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 18:30:23.915 +06:00 [INF] Hosting environment: Development
+2022-05-02 18:30:23.916 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 18:30:54.317 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 18:30:54.320 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 18:30:54.321 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 18:33:44.806 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 18:33:44.881 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 18:33:44.890 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 18:33:44.891 +06:00 [INF] Hosting environment: Development
+2022-05-02 18:33:44.891 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 18:33:52.675 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 18:33:52.677 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 18:33:52.678 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 19:00:10.347 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 19:00:10.957 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 19:00:10.969 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 19:00:10.971 +06:00 [INF] Hosting environment: Development
+2022-05-02 19:00:10.972 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 19:00:24.688 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 19:00:24.693 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 19:00:24.694 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 19:00:28.065 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\VisualStudio2019 - Copy.txt
+2022-05-02 19:00:28.264 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\VisualStudio2019.txt
+2022-05-02 19:00:28.267 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Activision Code 
+2022-05-02 19:00:28.349 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Activision Code\VisualStudio2019.txt
+2022-05-02 19:00:28.351 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Android Keys 
+2022-05-02 19:00:28.373 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Android Keys\pass.txt
+2022-05-02 19:00:28.390 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Android Keys\vara123_key.jks
+2022-05-02 19:00:28.392 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV 
+2022-05-02 19:00:28.613 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume.pdf
+2022-05-02 19:00:28.778 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_2.pdf
+2022-05-02 19:00:28.955 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_3.pdf
+2022-05-02 19:00:29.073 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_5.pdf
+2022-05-02 19:00:29.185 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\ANUP KUMAR SARKAR - Software Engineer - Resume_6.pdf
+2022-05-02 19:00:29.324 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\ANUP+KUMAR+SARKAR+-+Software+Engineer+-+Resume_6.pdf
+2022-05-02 19:00:29.427 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV_Blue _HPL.pdf
+2022-05-02 19:00:29.514 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Cover Letter 
+2022-05-02 19:00:29.652 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Cover Letter\JobMailApplicationCoverLetter.docx
+2022-05-02 19:00:29.654 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW 
+2022-05-02 19:00:29.724 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\CV_Anup_Feb-22.docx
+2022-05-02 19:00:29.874 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\DotNet_Anup_Sarkar_Resume.pdf
+2022-05-02 19:00:29.902 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\link.txt
+2022-05-02 19:00:29.937 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\~$_FORMAT2.docx
+2022-05-02 19:00:29.945 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others 
+2022-05-02 19:00:29.989 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\1.PNG
+2022-05-02 19:00:30.018 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\2.PNG
+2022-05-02 19:00:30.079 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV.pdf
+2022-05-02 19:00:30.142 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV1.pdf
+2022-05-02 19:00:30.199 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV2.pdf
+2022-05-02 19:00:30.251 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV_Perfect.docx
+2022-05-02 19:00:30.285 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV_Perfect.pdf
+2022-05-02 19:00:30.354 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\DotNet_Anup_Sarkar_Resume_Feb22.pdf
+2022-05-02 19:00:30.356 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Data 
+2022-05-02 19:00:30.393 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Data\log.txt
+2022-05-02 19:00:31.184 +06:00 [INF] HTTP GET /api/Files/ListDirectory responded 200 in 7912.1256 ms
+2022-05-02 19:01:19.870 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 19:01:19.872 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 19:01:19.872 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 19:01:20.026 +06:00 [INF] HTTP GET /api/Files/ListDirectory responded 200 in 839.6982 ms
+2022-05-02 19:12:07.477 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 19:12:07.582 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 19:12:07.592 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 19:12:07.594 +06:00 [INF] Hosting environment: Development
+2022-05-02 19:12:07.595 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 19:13:04.762 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 19:13:04.764 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 19:13:04.765 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 19:13:07.004 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\VisualStudio2019 - Copy.txt
+2022-05-02 19:13:07.019 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\VisualStudio2019.txt
+2022-05-02 19:13:07.022 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Activision Code 
+2022-05-02 19:13:07.089 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Activision Code\VisualStudio2019.txt
+2022-05-02 19:13:07.091 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Android Keys 
+2022-05-02 19:13:07.104 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Android Keys\pass.txt
+2022-05-02 19:13:07.112 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Android Keys\vara123_key.jks
+2022-05-02 19:13:07.114 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV 
+2022-05-02 19:13:07.134 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume.pdf
+2022-05-02 19:13:07.148 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_2.pdf
+2022-05-02 19:13:07.165 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_3.pdf
+2022-05-02 19:13:07.183 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_5.pdf
+2022-05-02 19:13:07.199 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\ANUP KUMAR SARKAR - Software Engineer - Resume_6.pdf
+2022-05-02 19:13:07.224 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\ANUP+KUMAR+SARKAR+-+Software+Engineer+-+Resume_6.pdf
+2022-05-02 19:13:07.245 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV_Blue _HPL.pdf
+2022-05-02 19:13:07.246 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Cover Letter 
+2022-05-02 19:13:07.269 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Cover Letter\JobMailApplicationCoverLetter.docx
+2022-05-02 19:13:07.279 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW 
+2022-05-02 19:13:07.393 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\CV_Anup_Feb-22.docx
+2022-05-02 19:13:07.532 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\DotNet_Anup_Sarkar_Resume.pdf
+2022-05-02 19:13:07.543 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\link.txt
+2022-05-02 19:13:07.557 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\~$_FORMAT2.docx
+2022-05-02 19:13:07.558 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others 
+2022-05-02 19:13:07.599 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\1.PNG
+2022-05-02 19:13:07.618 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\2.PNG
+2022-05-02 19:13:07.650 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV.pdf
+2022-05-02 19:13:07.685 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV1.pdf
+2022-05-02 19:13:07.720 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV2.pdf
+2022-05-02 19:13:07.756 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV_Perfect.docx
+2022-05-02 19:13:07.776 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV_Perfect.pdf
+2022-05-02 19:13:07.843 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\DotNet_Anup_Sarkar_Resume_Feb22.pdf
+2022-05-02 19:13:07.846 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Data 
+2022-05-02 19:13:07.873 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Data\log.txt
+2022-05-02 19:13:09.092 +06:00 [ERR] Failed executing DbCommand (332ms) [Parameters=[@p0='?', @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Guid), @p5='?' (DbType = DateTime), @p6='?' (DbType = DateTime), @p7='?' (DbType = DateTime), @p8='?' (DbType = DateTime), @p9='?', @p10='?' (DbType = DateTime), @p11='?', @p12='?' (DbType = Int64), @p13='?', @p14='?' (DbType = DateTime), @p15='?', @p16='?' (DbType = Boolean), @p17='?' (DbType = Guid), @p18='?' (DbType = DateTime), @p19='?' (DbType = DateTime), @p20='?' (DbType = DateTime), @p21='?' (DbType = DateTime), @p22='?', @p23='?' (DbType = DateTime), @p24='?', @p25='?' (DbType = Int64), @p26='?', @p27='?' (DbType = DateTime), @p28='?', @p29='?' (DbType = Boolean), @p30='?' (DbType = Guid), @p31='?' (DbType = DateTime), @p32='?' (DbType = DateTime), @p33='?' (DbType = DateTime), @p34='?' (DbType = DateTime), @p35='?', @p36='?' (DbType = DateTime), @p37='?', @p38='?' (DbType = Int64), @p39='?', @p40='?' (DbType = DateTime), @p41='?', @p42='?' (DbType = Boolean), @p43='?' (DbType = Guid), @p44='?' (DbType = DateTime), @p45='?' (DbType = DateTime), @p46='?' (DbType = DateTime), @p47='?' (DbType = DateTime), @p48='?', @p49='?' (DbType = DateTime), @p50='?', @p51='?' (DbType = Int64), @p52='?', @p53='?' (DbType = DateTime), @p54='?', @p55='?' (DbType = Boolean), @p56='?' (DbType = Guid), @p57='?' (DbType = DateTime), @p58='?' (DbType = DateTime), @p59='?' (DbType = DateTime), @p60='?' (DbType = DateTime), @p61='?', @p62='?' (DbType = DateTime), @p63='?', @p64='?' (DbType = Int64), @p65='?', @p66='?' (DbType = DateTime), @p67='?', @p68='?' (DbType = Boolean), @p69='?' (DbType = Guid), @p70='?' (DbType = DateTime), @p71='?' (DbType = DateTime), @p72='?' (DbType = DateTime), @p73='?' (DbType = DateTime), @p74='?', @p75='?' (DbType = DateTime), @p76='?', @p77='?' (DbType = Int64), @p78='?', @p79='?' (DbType = DateTime), @p80='?', @p81='?' (DbType = Boolean), @p82='?' (DbType = Guid), @p83='?' (DbType = DateTime), @p84='?' (DbType = DateTime), @p85='?' (DbType = DateTime), @p86='?' (DbType = DateTime), @p87='?', @p88='?' (DbType = DateTime), @p89='?', @p90='?' (DbType = Int64), @p91='?' (DbType = Guid), @p92='?' (DbType = DateTime), @p93='?', @p94='?', @p95='?' (DbType = DateTime), @p96='?' (DbType = Int32), @p97='?', @p98='?' (DbType = DateTime), @p99='?', @p100='?' (DbType = DateTime), @p101='?', @p102='?' (DbType = Guid), @p103='?', @p104='?', @p105='?', @p106='?' (DbType = Boolean), @p107='?' (DbType = DateTime), @p108='?' (DbType = DateTime), @p109='?' (DbType = DateTime), @p110='?' (DbType = DateTime), @p111='?', @p112='?' (DbType = DateTime), @p113='?', @p114='?', @p115='?' (DbType = Int64), @p116='?' (DbType = Guid), @p117='?', @p118='?', @p119='?', @p120='?' (DbType = Boolean), @p121='?' (DbType = DateTime), @p122='?' (DbType = DateTime), @p123='?' (DbType = DateTime), @p124='?' (DbType = DateTime), @p125='?', @p126='?' (DbType = DateTime), @p127='?', @p128='?', @p129='?' (DbType = Int64), @p130='?' (DbType = Guid), @p131='?', @p132='?', @p133='?', @p134='?' (DbType = Boolean), @p135='?' (DbType = DateTime), @p136='?' (DbType = DateTime), @p137='?' (DbType = DateTime), @p138='?' (DbType = DateTime), @p139='?', @p140='?' (DbType = DateTime), @p141='?', @p142='?', @p143='?' (DbType = Int64), @p144='?' (DbType = Guid), @p145='?', @p146='?', @p147='?', @p148='?' (DbType = Boolean), @p149='?' (DbType = DateTime), @p150='?' (DbType = DateTime), @p151='?' (DbType = DateTime), @p152='?' (DbType = DateTime), @p153='?', @p154='?' (DbType = DateTime), @p155='?', @p156='?', @p157='?' (DbType = Int64), @p158='?' (DbType = Guid), @p159='?', @p160='?', @p161='?', @p162='?' (DbType = Boolean), @p163='?' (DbType = DateTime), @p164='?' (DbType = DateTime), @p165='?' (DbType = DateTime), @p166='?' (DbType = DateTime), @p167='?', @p168='?' (DbType = DateTime), @p169='?', @p170='?', @p171='?' (DbType = Int64), @p172='?' (DbType = Guid), @p173='?', @p174='?', @p175='?', @p176='?' (DbType = Boolean), @p177='?' (DbType = DateTime), @p178='?' (DbType = DateTime), @p179='?' (DbType = DateTime), @p180='?' (DbType = DateTime), @p181='?', @p182='?' (DbType = DateTime), @p183='?', @p184='?', @p185='?' (DbType = Int64), @p186='?' (DbType = Guid), @p187='?', @p188='?', @p189='?', @p190='?' (DbType = Boolean), @p191='?' (DbType = DateTime), @p192='?' (DbType = DateTime), @p193='?' (DbType = DateTime), @p194='?' (DbType = DateTime), @p195='?', @p196='?' (DbType = DateTime), @p197='?', @p198='?', @p199='?' (DbType = Int64), @p200='?' (DbType = Guid), @p201='?', @p202='?', @p203='?', @p204='?' (DbType = Boolean), @p205='?' (DbType = DateTime), @p206='?' (DbType = DateTime), @p207='?' (DbType = DateTime), @p208='?' (DbType = DateTime), @p209='?', @p210='?' (DbType = DateTime), @p211='?', @p212='?', @p213='?' (DbType = Int64), @p214='?' (DbType = Guid), @p215='?', @p216='?', @p217='?', @p218='?' (DbType = Boolean), @p219='?' (DbType = DateTime), @p220='?' (DbType = DateTime), @p221='?' (DbType = DateTime), @p222='?' (DbType = DateTime), @p223='?', @p224='?' (DbType = DateTime), @p225='?', @p226='?', @p227='?' (DbType = Int64), @p228='?' (DbType = Guid), @p229='?', @p230='?', @p231='?', @p232='?' (DbType = Boolean), @p233='?' (DbType = DateTime), @p234='?' (DbType = DateTime), @p235='?' (DbType = DateTime), @p236='?' (DbType = DateTime), @p237='?', @p238='?' (DbType = DateTime), @p239='?', @p240='?', @p241='?' (DbType = Int64), @p242='?' (DbType = Guid), @p243='?', @p244='?', @p245='?', @p246='?' (DbType = Boolean), @p247='?' (DbType = DateTime), @p248='?' (DbType = DateTime), @p249='?' (DbType = DateTime), @p250='?' (DbType = DateTime), @p251='?', @p252='?' (DbType = DateTime), @p253='?', @p254='?', @p255='?' (DbType = Int64), @p256='?' (DbType = Guid), @p257='?', @p258='?', @p259='?', @p260='?' (DbType = Boolean), @p261='?' (DbType = DateTime), @p262='?' (DbType = DateTime), @p263='?' (DbType = DateTime), @p264='?' (DbType = DateTime), @p265='?', @p266='?' (DbType = DateTime), @p267='?', @p268='?', @p269='?' (DbType = Int64), @p270='?' (DbType = Guid), @p271='?', @p272='?', @p273='?', @p274='?' (DbType = Boolean), @p275='?' (DbType = DateTime), @p276='?' (DbType = DateTime), @p277='?' (DbType = DateTime), @p278='?' (DbType = DateTime), @p279='?', @p280='?' (DbType = DateTime), @p281='?', @p282='?', @p283='?' (DbType = Int64), @p284='?' (DbType = Guid), @p285='?', @p286='?', @p287='?', @p288='?' (DbType = Boolean), @p289='?' (DbType = DateTime), @p290='?' (DbType = DateTime), @p291='?' (DbType = DateTime), @p292='?' (DbType = DateTime), @p293='?', @p294='?' (DbType = DateTime), @p295='?', @p296='?', @p297='?' (DbType = Int64), @p298='?' (DbType = Guid), @p299='?', @p300='?', @p301='?', @p302='?' (DbType = Boolean), @p303='?' (DbType = DateTime), @p304='?' (DbType = DateTime), @p305='?' (DbType = DateTime), @p306='?' (DbType = DateTime), @p307='?', @p308='?' (DbType = DateTime), @p309='?', @p310='?', @p311='?' (DbType = Int64), @p312='?' (DbType = Guid), @p313='?', @p314='?', @p315='?', @p316='?' (DbType = Boolean), @p317='?' (DbType = DateTime), @p318='?' (DbType = DateTime), @p319='?' (DbType = DateTime), @p320='?' (DbType = DateTime), @p321='?', @p322='?' (DbType = DateTime), @p323='?', @p324='?', @p325='?' (DbType = Int64), @p326='?' (DbType = Guid), @p327='?', @p328='?', @p329='?', @p330='?' (DbType = Boolean), @p331='?' (DbType = DateTime), @p332='?' (DbType = DateTime), @p333='?' (DbType = DateTime), @p334='?' (DbType = DateTime), @p335='?', @p336='?' (DbType = DateTime), @p337='?', @p338='?', @p339='?' (DbType = Int64), @p340='?' (DbType = Guid), @p341='?', @p342='?', @p343='?', @p344='?' (DbType = Boolean), @p345='?' (DbType = DateTime), @p346='?' (DbType = DateTime), @p347='?' (DbType = DateTime), @p348='?' (DbType = DateTime), @p349='?', @p350='?' (DbType = DateTime), @p351='?', @p352='?', @p353='?' (DbType = Int64), @p354='?' (DbType = Guid), @p355='?', @p356='?', @p357='?', @p358='?' (DbType = Boolean), @p359='?' (DbType = DateTime), @p360='?' (DbType = DateTime), @p361='?' (DbType = DateTime), @p362='?' (DbType = DateTime), @p363='?', @p364='?' (DbType = DateTime), @p365='?', @p366='?', @p367='?' (DbType = Int64), @p368='?' (DbType = Guid), @p369='?', @p370='?', @p371='?', @p372='?' (DbType = Boolean), @p373='?' (DbType = DateTime), @p374='?' (DbType = DateTime), @p375='?' (DbType = DateTime), @p376='?' (DbType = DateTime), @p377='?', @p378='?' (DbType = DateTime), @p379='?', @p380='?', @p381='?' (DbType = Int64), @p382='?' (DbType = Guid), @p383='?', @p384='?', @p385='?', @p386='?' (DbType = Boolean), @p387='?' (DbType = DateTime), @p388='?' (DbType = DateTime), @p389='?' (DbType = DateTime), @p390='?' (DbType = DateTime), @p391='?', @p392='?' (DbType = DateTime), @p393='?', @p394='?', @p395='?' (DbType = Int64), @p396='?' (DbType = Guid), @p397='?', @p398='?', @p399='?', @p400='?' (DbType = Boolean), @p401='?' (DbType = DateTime), @p402='?' (DbType = DateTime), @p403='?' (DbType = DateTime), @p404='?' (DbType = DateTime), @p405='?', @p406='?' (DbType = DateTime), @p407='?', @p408='?', @p409='?' (DbType = Int64), @p410='?' (DbType = Guid), @p411='?', @p412='?', @p413='?', @p414='?' (DbType = Boolean), @p415='?' (DbType = DateTime), @p416='?' (DbType = DateTime), @p417='?' (DbType = DateTime), @p418='?' (DbType = DateTime), @p419='?', @p420='?' (DbType = DateTime), @p421='?', @p422='?', @p423='?' (DbType = Int64), @p424='?' (DbType = Guid), @p425='?', @p426='?', @p427='?', @p428='?' (DbType = Boolean), @p429='?' (DbType = DateTime), @p430='?' (DbType = DateTime), @p431='?' (DbType = DateTime), @p432='?' (DbType = DateTime), @p433='?', @p434='?' (DbType = DateTime), @p435='?', @p436='?', @p437='?' (DbType = Int64), @p438='?' (DbType = Guid), @p439='?', @p440='?', @p441='?', @p442='?' (DbType = Boolean), @p443='?' (DbType = DateTime), @p444='?' (DbType = DateTime), @p445='?' (DbType = DateTime), @p446='?' (DbType = DateTime), @p447='?', @p448='?' (DbType = DateTime), @p449='?', @p450='?', @p451='?' (DbType = Int64), @p452='?' (DbType = Guid), @p453='?', @p454='?', @p455='?', @p456='?' (DbType = Boolean), @p457='?' (DbType = DateTime), @p458='?' (DbType = DateTime), @p459='?' (DbType = DateTime), @p460='?' (DbType = DateTime), @p461='?', @p462='?' (DbType = DateTime), @p463='?', @p464='?', @p465='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Directories" ("Name", "CreatedAt", "CreatedBy", "HasAccessPermission", "Id", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "RemotePath", "Size")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+INSERT INTO "Directories" ("Name", "CreatedAt", "CreatedBy", "HasAccessPermission", "Id", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "RemotePath", "Size")
+VALUES (@p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23, @p24, @p25);
+INSERT INTO "Directories" ("Name", "CreatedAt", "CreatedBy", "HasAccessPermission", "Id", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "RemotePath", "Size")
+VALUES (@p26, @p27, @p28, @p29, @p30, @p31, @p32, @p33, @p34, @p35, @p36, @p37, @p38);
+INSERT INTO "Directories" ("Name", "CreatedAt", "CreatedBy", "HasAccessPermission", "Id", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "RemotePath", "Size")
+VALUES (@p39, @p40, @p41, @p42, @p43, @p44, @p45, @p46, @p47, @p48, @p49, @p50, @p51);
+INSERT INTO "Directories" ("Name", "CreatedAt", "CreatedBy", "HasAccessPermission", "Id", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "RemotePath", "Size")
+VALUES (@p52, @p53, @p54, @p55, @p56, @p57, @p58, @p59, @p60, @p61, @p62, @p63, @p64);
+INSERT INTO "Directories" ("Name", "CreatedAt", "CreatedBy", "HasAccessPermission", "Id", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "RemotePath", "Size")
+VALUES (@p65, @p66, @p67, @p68, @p69, @p70, @p71, @p72, @p73, @p74, @p75, @p76, @p77);
+INSERT INTO "Directories" ("Name", "CreatedAt", "CreatedBy", "HasAccessPermission", "Id", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "RemotePath", "Size")
+VALUES (@p78, @p79, @p80, @p81, @p82, @p83, @p84, @p85, @p86, @p87, @p88, @p89, @p90);
+INSERT INTO "EventLogs" ("Id", "CreatedAt", "CreatedBy", "EventName", "JobEndedAt", "JobIntervalInMinute", "JobName", "JobStartedAt", "JobType", "ModifiedAt", "Result")
+VALUES (@p91, @p92, @p93, @p94, @p95, @p96, @p97, @p98, @p99, @p100, @p101);
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p102, @p103, @p104, @p105, @p106, @p107, @p108, @p109, @p110, @p111, @p112, @p113, @p114, @p115)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p116, @p117, @p118, @p119, @p120, @p121, @p122, @p123, @p124, @p125, @p126, @p127, @p128, @p129)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p130, @p131, @p132, @p133, @p134, @p135, @p136, @p137, @p138, @p139, @p140, @p141, @p142, @p143)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p144, @p145, @p146, @p147, @p148, @p149, @p150, @p151, @p152, @p153, @p154, @p155, @p156, @p157)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p158, @p159, @p160, @p161, @p162, @p163, @p164, @p165, @p166, @p167, @p168, @p169, @p170, @p171)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p172, @p173, @p174, @p175, @p176, @p177, @p178, @p179, @p180, @p181, @p182, @p183, @p184, @p185)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p186, @p187, @p188, @p189, @p190, @p191, @p192, @p193, @p194, @p195, @p196, @p197, @p198, @p199)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p200, @p201, @p202, @p203, @p204, @p205, @p206, @p207, @p208, @p209, @p210, @p211, @p212, @p213)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p214, @p215, @p216, @p217, @p218, @p219, @p220, @p221, @p222, @p223, @p224, @p225, @p226, @p227)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p228, @p229, @p230, @p231, @p232, @p233, @p234, @p235, @p236, @p237, @p238, @p239, @p240, @p241)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p242, @p243, @p244, @p245, @p246, @p247, @p248, @p249, @p250, @p251, @p252, @p253, @p254, @p255)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p256, @p257, @p258, @p259, @p260, @p261, @p262, @p263, @p264, @p265, @p266, @p267, @p268, @p269)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p270, @p271, @p272, @p273, @p274, @p275, @p276, @p277, @p278, @p279, @p280, @p281, @p282, @p283)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p284, @p285, @p286, @p287, @p288, @p289, @p290, @p291, @p292, @p293, @p294, @p295, @p296, @p297)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p298, @p299, @p300, @p301, @p302, @p303, @p304, @p305, @p306, @p307, @p308, @p309, @p310, @p311)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p312, @p313, @p314, @p315, @p316, @p317, @p318, @p319, @p320, @p321, @p322, @p323, @p324, @p325)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p326, @p327, @p328, @p329, @p330, @p331, @p332, @p333, @p334, @p335, @p336, @p337, @p338, @p339)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p340, @p341, @p342, @p343, @p344, @p345, @p346, @p347, @p348, @p349, @p350, @p351, @p352, @p353)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p354, @p355, @p356, @p357, @p358, @p359, @p360, @p361, @p362, @p363, @p364, @p365, @p366, @p367)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p368, @p369, @p370, @p371, @p372, @p373, @p374, @p375, @p376, @p377, @p378, @p379, @p380, @p381)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p382, @p383, @p384, @p385, @p386, @p387, @p388, @p389, @p390, @p391, @p392, @p393, @p394, @p395)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p396, @p397, @p398, @p399, @p400, @p401, @p402, @p403, @p404, @p405, @p406, @p407, @p408, @p409)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p410, @p411, @p412, @p413, @p414, @p415, @p416, @p417, @p418, @p419, @p420, @p421, @p422, @p423)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p424, @p425, @p426, @p427, @p428, @p429, @p430, @p431, @p432, @p433, @p434, @p435, @p436, @p437)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p438, @p439, @p440, @p441, @p442, @p443, @p444, @p445, @p446, @p447, @p448, @p449, @p450, @p451)
+RETURNING "CreatedAt";
+INSERT INTO "Files" ("Id", "CreatedBy", "DirectoryName", "Extention", "HasAccessPermission", "LastAccessTime", "LastAccessTimeUtc", "LastWriteTime", "LastWriteTimeUtc", "LocalPath", "ModifiedAt", "Name", "RemotePath", "Size")
+VALUES (@p452, @p453, @p454, @p455, @p456, @p457, @p458, @p459, @p460, @p461, @p462, @p463, @p464, @p465)
+RETURNING "CreatedAt";
+2022-05-02 19:13:09.437 +06:00 [ERR] An exception occurred in the database while saving changes for context type 'MediaFon.FileManager.Infrastructure.Data.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "PK_Directories"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|211_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "PK_Directories"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Directories
+    ConstraintName: PK_Directories
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "PK_Directories"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|211_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "PK_Directories"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Directories
+    ConstraintName: PK_Directories
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2022-05-02 19:13:10.084 +06:00 [FTL] Unable to Connect  SFTP Server : 192.168.0.109 , User : anup
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "PK_Directories"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.<ReadMessage>g__ReadMessageLong|211_0(NpgsqlConnector connector, Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "PK_Directories"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: Directories
+    ConstraintName: PK_Directories
+    File: nbtinsert.c
+    Line: 670
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MediaFon.FileManager.Core.UnitOfWork.Services.FilesInfoDbService.Complete() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\UnitOfWork\FilesInfoDbService.cs:line 28
+   at MediaFon.FileManager.Core.Services.SSHService.ListDirectory() in C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Core\Services\SSHService.cs:line 86
+2022-05-02 19:13:10.208 +06:00 [INF] HTTP GET /api/Files/ListDirectory responded 204 in 6774.8748 ms
+2022-05-02 19:14:08.130 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 19:14:08.137 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 19:14:08.138 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 19:14:08.215 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\VisualStudio2019 - Copy.txt
+2022-05-02 19:14:08.223 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\VisualStudio2019.txt
+2022-05-02 19:14:08.224 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Activision Code 
+2022-05-02 19:14:08.237 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Activision Code\VisualStudio2019.txt
+2022-05-02 19:14:08.239 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Android Keys 
+2022-05-02 19:14:08.248 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Android Keys\pass.txt
+2022-05-02 19:14:08.263 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Android Keys\vara123_key.jks
+2022-05-02 19:14:08.265 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV 
+2022-05-02 19:14:08.283 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume.pdf
+2022-05-02 19:14:08.299 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_2.pdf
+2022-05-02 19:14:08.386 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_3.pdf
+2022-05-02 19:14:08.439 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_5.pdf
+2022-05-02 19:14:08.468 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\ANUP KUMAR SARKAR - Software Engineer - Resume_6.pdf
+2022-05-02 19:14:08.567 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\ANUP+KUMAR+SARKAR+-+Software+Engineer+-+Resume_6.pdf
+2022-05-02 19:14:08.636 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV_Blue _HPL.pdf
+2022-05-02 19:14:08.642 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Cover Letter 
+2022-05-02 19:14:08.671 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Cover Letter\JobMailApplicationCoverLetter.docx
+2022-05-02 19:14:08.680 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW 
+2022-05-02 19:14:08.721 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\CV_Anup_Feb-22.docx
+2022-05-02 19:14:08.777 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\DotNet_Anup_Sarkar_Resume.pdf
+2022-05-02 19:14:08.788 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\link.txt
+2022-05-02 19:14:08.803 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\~$_FORMAT2.docx
+2022-05-02 19:14:08.806 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others 
+2022-05-02 19:14:08.837 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\1.PNG
+2022-05-02 19:14:08.863 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\2.PNG
+2022-05-02 19:14:08.917 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV.pdf
+2022-05-02 19:14:08.965 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV1.pdf
+2022-05-02 19:14:09.011 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV2.pdf
+2022-05-02 19:14:09.118 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV_Perfect.docx
+2022-05-02 19:14:09.136 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV_Perfect.pdf
+2022-05-02 19:14:09.209 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\DotNet_Anup_Sarkar_Resume_Feb22.pdf
+2022-05-02 19:14:09.211 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Data 
+2022-05-02 19:14:09.241 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Data\log.txt
+2022-05-02 19:14:09.425 +06:00 [INF] HTTP GET /api/Files/ListDirectory responded 200 in 1733.5574 ms
+2022-05-02 19:18:43.447 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 19:18:43.524 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 19:18:43.534 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 19:18:43.536 +06:00 [INF] Hosting environment: Development
+2022-05-02 19:18:43.537 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 19:18:54.750 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 19:18:54.753 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 19:18:54.753 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 19:18:58.319 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\VisualStudio2019 - Copy.txt
+2022-05-02 19:18:58.358 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\VisualStudio2019.txt
+2022-05-02 19:18:58.360 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Activision Code 
+2022-05-02 19:18:58.471 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Activision Code\VisualStudio2019.txt
+2022-05-02 19:18:58.472 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Android Keys 
+2022-05-02 19:18:58.485 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Android Keys\pass.txt
+2022-05-02 19:18:58.494 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Android Keys\vara123_key.jks
+2022-05-02 19:18:58.497 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV 
+2022-05-02 19:18:58.523 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume.pdf
+2022-05-02 19:18:58.539 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_2.pdf
+2022-05-02 19:18:58.556 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_3.pdf
+2022-05-02 19:18:58.574 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Anup Kumar Sarkar - Software Engineer - Resume_5.pdf
+2022-05-02 19:18:58.619 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\ANUP KUMAR SARKAR - Software Engineer - Resume_6.pdf
+2022-05-02 19:18:58.639 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\ANUP+KUMAR+SARKAR+-+Software+Engineer+-+Resume_6.pdf
+2022-05-02 19:18:58.692 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV_Blue _HPL.pdf
+2022-05-02 19:18:58.694 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Cover Letter 
+2022-05-02 19:18:58.749 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\Cover Letter\JobMailApplicationCoverLetter.docx
+2022-05-02 19:18:58.752 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW 
+2022-05-02 19:18:58.957 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\CV_Anup_Feb-22.docx
+2022-05-02 19:19:00.096 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\DotNet_Anup_Sarkar_Resume.pdf
+2022-05-02 19:19:00.733 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\link.txt
+2022-05-02 19:19:00.750 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\~$_FORMAT2.docx
+2022-05-02 19:19:00.753 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others 
+2022-05-02 19:19:00.983 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\1.PNG
+2022-05-02 19:19:01.073 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\2.PNG
+2022-05-02 19:19:01.141 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV.pdf
+2022-05-02 19:19:01.243 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV1.pdf
+2022-05-02 19:19:01.365 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV2.pdf
+2022-05-02 19:19:01.439 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV_Perfect.docx
+2022-05-02 19:19:01.491 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\CV_Perfect.pdf
+2022-05-02 19:19:01.597 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\CV\CV NEW\Others\DotNet_Anup_Sarkar_Resume_Feb22.pdf
+2022-05-02 19:19:01.600 +06:00 [INF] SFTP Directory created to local   : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Data 
+2022-05-02 19:19:01.635 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\Data\log.txt
+2022-05-02 19:19:02.490 +06:00 [INF] HTTP GET /api/Files/ListDirectory responded 200 in 9624.2510 ms
+2022-05-02 19:20:42.733 +06:00 [INF] Now listening on: https://localhost:7193
+2022-05-02 19:20:42.940 +06:00 [INF] Now listening on: http://localhost:5193
+2022-05-02 19:20:42.990 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-02 19:20:43.002 +06:00 [INF] Hosting environment: Development
+2022-05-02 19:20:43.122 +06:00 [INF] Content root path: C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\
+2022-05-02 19:20:56.159 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 19:20:56.162 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 19:20:56.163 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 19:20:59.274 +06:00 [INF] HTTP GET /api/Files/ListDirectory responded 200 in 4990.6354 ms
+2022-05-02 19:22:39.500 +06:00 [INF] Connected to SFTP Server : 192.168.0.109 , User : anup
+2022-05-02 19:22:39.513 +06:00 [INF] Default Directory : /C:/Users/Anup
+2022-05-02 19:22:39.517 +06:00 [INF] Working Directory : /C:/SFTP
+2022-05-02 19:22:39.904 +06:00 [INF] SFTP File Downloaded and save to location  : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage\VisualStudio2019 - Copy (2).txt
+2022-05-02 19:22:40.006 +06:00 [INF] SFTP File /C:/SFTP/VisualStudio2019.txt has modified since last sync. File updated to newer file  location : C:\Users\Anup\Documents\DotNet\Core\MeadiaFon.WebFileManager\MediaFon.FileManager.Web\\LocalFileStorage
+2022-05-02 19:22:40.269 +06:00 [INF] HTTP GET /api/Files/ListDirectory responded 200 in 1408.9173 ms

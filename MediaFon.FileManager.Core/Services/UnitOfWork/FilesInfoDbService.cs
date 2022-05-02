@@ -10,12 +10,16 @@ namespace MediaFon.FileManager.Core.UnitOfWork.Services
         private readonly ApplicationDbContext _context;
 
         public FilesRepository Files { get; private set; }
-        public DirectoryRepository Directories { get; set; }
+        public DirectoryRepository Directories { get; private set; }
+
+        public EventLogsRepository EventLogs { get; private set; }
 
         public FilesInfoDbService(ApplicationDbContext context)
         {
             _context = context;
-            Files = new FilesRepository(_context);   
+            Files = new FilesRepository(_context);
+            Directories = new DirectoryRepository(_context);
+            EventLogs = new EventLogsRepository(_context);
         }
  
 
