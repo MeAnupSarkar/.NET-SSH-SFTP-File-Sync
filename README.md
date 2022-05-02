@@ -29,11 +29,9 @@ Change SFTP Server configuration from appsetting.json
     "SFTP_USER": "root",
     "SFTP_PASS": "Password",
     "SFTP_PORT": 22,
-    "UserDefinedRemoteWorkingDirectory": "/C:/SFTP", 
-	// Starting forward slash before 'C:/' is required
+    "UserDefinedRemoteWorkingDirectory": "/C:/SFTP", // Starting forward slash before 'C:/' is required
     "BackgroundJobInterval": 1,
-    "LocalFileStoreLocation": "LocalFileStorage" 
-	// Folder should be within the Web Application directory
+    "LocalFileStoreLocation": "LocalFileStorage" // Folder should be within the Web Application directory
   }
 }
 ```
