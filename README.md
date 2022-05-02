@@ -17,7 +17,7 @@ For database context and migration , refer to project MediaFon.FileManager.Infra
 
 ` cd  MediaFon.FileManager.Infrastructure`
 
-#####Apply Migration 
+#### Apply Migration 
 ` dotnet ef database update`
 
 ### App Settings
